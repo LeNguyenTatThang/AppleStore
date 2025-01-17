@@ -1,0 +1,95 @@
+﻿@model List<CartItem>
+
+<div class="container my-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="text-left">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-info">Tiếp tục mua hàng</a>
+        </div>
+        <div class="text-center flex-grow-1">
+            <h2>Giỏ hàng của bạn</h2>
+        </div>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Tổng cộng</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="/images/@item.ImageUrl" alt="@item.ProductName" width="80" />
+                    </td>
+                    <td>@item.ProductName</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>
+                        <form asp-action="UpdateQuantity" method="post" class="d-inline">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-primary btn-sm" name="action" value="decrease">-</button>
+                            <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control d-inline" style="width: 70px;" disabled />
+                            <button type="submit" class="btn btn-primary btn-sm" name="action" value="increase">+</button>
+                        </form>
+                    </td>
+                    <td>@($"{(item.Price * item.Quantity):N0} ₫")</td>
+
+                    <td>
+                        <form asp-action="RemoveFromCart" method="post" class="d-inline">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="text-end fw-bold">Tổng giá trị đơn hàng:</td>
+                <td colspan="2" class="text-danger fw-bold">
+                    @Model.Sum(item => item.Price * item.Quantity).ToString("C")
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-end">
+        <a asp-action="Checkout" class="btn btn-success">Thanh toán</a>
+    </div>
+
+    <!-- Nút thanh toán Momo -->
+    <form method="POST" asp-action="CreatePaymentMomo" asp-controller="Payment">
+        <!-- Giới thiệu đơn hàng -->
+        <input type="hidden" name="FullName" value="@ViewBag.Username" />
+        <input type="hidden" name="OrderInformation" value="Thanh toán sản phẩm của AppleStore" />
+
+        <!-- Sử dụng giá trị tổng đơn hàng từ Cart -->
+        <input type="hidden" name="Amount" value="@Model.Sum(item => item.Price * item.Quantity)" />
+
+        <button type="submit" class="btn btn-primary">
+            Thanh toán qua Momo
+        </button>
+    </form>
+
+    <!-- Thanh toán qua VnPay -->
+    <form method="POST" asp-action="CreatePaymentUrlVnpay" asp-controller="Payment">
+        <input type="hidden" name="OrderType" value="other" />
+        <!-- Giới thiệu đơn hàng -->
+        <input type="hidden" name="Name" value="@ViewBag.Username" />
+        <input type="hidden" name="OrderDescription" value="Thanh toán sản phẩm của AppleStore" />
+
+        <!-- Sử dụng giá trị tổng đơn hàng từ Cart -->
+        <input type="hidden" name="Amount" value="@Model.Sum(item => item.Price * item.Quantity)" />
+
+        <button type="submit" class="btn btn-success">
+            Thanh toán qua VnPay
+        </button>
+    </form>
+</div>
+

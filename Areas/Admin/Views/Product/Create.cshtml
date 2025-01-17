@@ -1,0 +1,42 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Thêm sản phẩm";
+}
+<form autocomplete="off" asp-action="Create" enctype="multipart/form-data">
+    <div class="container mt-4">
+        <h1 class="text-center">Thêm mới sản phẩm</h1>
+
+        <div class="mb-3">
+            <label for="Name" class="form-label">Tên sản phẩm</label>
+            <input class="form-control" asp-for="Name" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="CategoryId" class="form-label">Danh mục</label>
+            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Category" required>
+                <option>-- Chọn danh mục --</option>
+            </select>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="Price" class="form-label">Giá</label>
+            <input class="form-control" asp-for="Price" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="Image" class="form-label">Hình ảnh</label>
+            <input class="form-control" type="file" name="Image" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="Information" class="form-label">Thông tin</label>
+            <textarea class="form-control" asp-for="Information" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Thêm</button>
+        </div>
+    </div>
+</form>
+
+

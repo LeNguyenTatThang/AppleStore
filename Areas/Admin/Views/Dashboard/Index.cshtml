@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h3>Dashboard</h3>
+
+<!-- Biểu đồ 1 -->
+<canvas id="chart1" width="400" height="200"></canvas>
+
+<!-- Biểu đồ 2 -->
+<canvas id="chart2" width="400" height="200"></canvas>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Tạo Biểu đồ 1
+        var ctx1 = document.getElementById('chart1').getContext('2d');
+        var chart1 = new Chart(ctx1, {
+            type: 'line',
+            data: {
+                labels: [], // Sẽ được cập nhật từ controller
+                datasets: [{
+                    label: 'Sales Data',
+                    data: [], // Sẽ được cập nhật từ controller
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+
+        // Lấy dữ liệu cho Biểu đồ 1 từ server
+        fetch('@Url.Action("GetChartData", "Dashboard", new { area = "Admin" })')
+            .then(response => response.json())
+            .then(data => {
+                chart1.data.labels = data.labels;
+                chart1.data.datasets[0].data = data.datasets[0].data;
+                chart1.update();
+            });
+
+        // Tạo Biểu đồ 2
+        var ctx2 = document.getElementById('chart2').getContext('2d');
+        var chart2 = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: [], // Sẽ được cập nhật từ controller
+                datasets: [{
+                    label: 'Revenue Data',
+                    data: [], // Sẽ được cập nhật từ controller
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+
+        // Lấy dữ liệu cho Biểu đồ 2 từ server
+        fetch('@Url.Action("GetAnotherChartData", "Dashboard", new { area = "Admin" })')
+            .then(response => response.json())
+            .then(data => {
+                chart2.data.labels = data.labels;
+                chart2.data.datasets[0].data = data.datasets[0].data;
+                chart2.update();
+            });
+    </script>
+}

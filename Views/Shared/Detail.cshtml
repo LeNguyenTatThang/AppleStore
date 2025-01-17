@@ -1,0 +1,33 @@
+﻿@model AppleStore.Models.Product
+
+<div class="container">
+    <h1 class="text-center mb-4">@Model.Name</h1>
+
+    <div class="row">
+        <!-- Cột hiển thị ảnh sản phẩm (col-6) -->
+        <div class="col-md-6">
+            <img src="../../images/@Model.Img" class="img-fluid" alt="@Model.Name" style="height: 500px; object-fit: cover;">
+        </div>
+
+        <!-- Cột hiển thị thông tin sản phẩm (col-6) -->
+        <div class="col-md-6">
+            <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+            <p><strong>Information:</strong> @Model.Information</p>
+
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Back to Products</a>
+        </div>
+    </div>
+
+    <!-- Cột chi tiết hoặc hướng dẫn sử dụng (col-12) -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h5>Product Details</h5>
+            <p>Here you can add detailed information or user guide for the product.</p>
+            <ul>
+                <li>Feature 1: Detailed explanation</li>
+                <li>Feature 2: Detailed explanation</li>
+                <li>Feature 3: Detailed explanation</li>
+            </ul>
+        </div>
+    </div>
+</div>

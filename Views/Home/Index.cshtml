@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<AppleStore.Models.Product>
+
+<div class="bg-image" style="background-color: lemonchiffon;">
+    <div style="width: 500px; justify-self: right; padding-top: 15px">
+        <form class="d-flex pe-5" role="search">
+            <input class="form-control me-2" type="search" placeholder="Tìm kiếm ..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+    <div class="me-5 py-3 d-flex justify-content-end">
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="filterDropdown"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-filter"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="filterDropdown">
+                <li><a class="dropdown-item" href="#"><i class="fas fa-sort-alpha-down"></i> A → Z</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-sort-alpha-up"></i> Z → A</a></li>
+                <li>
+                    <a class="dropdown-item" href="#"><i class="fas fa-sort-amount-up"></i> Giá tăng dần</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-sort-amount-down"></i> Giá giảm
+                        dần
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center d-flex justify-content-between px-5 my-2">
+        <div class="w-25">
+            <!-- Danh sách tất cả các danh mục -->
+            <ul class="list-unstyled d-flex flex-column gap-3">
+                <li>
+                    <a href="@Url.Action("Index")" class="text-dark text-decoration-none">
+                        <button type="button" class="btn btn-outline-secondary btn-block">
+                            Tất cả
+                        </button>
+                    </a>
+                </li>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <li>
+                        <!-- Khi nhấn vào danh mục, sẽ gửi GET request với categoryId -->
+                        <a href="@Url.Action("Index", "Home", new { categoryId = category.Id })" class="text-dark text-decoration-none">
+                            <button type="button" class="btn btn-outline-secondary btn-block">
+                                @category.Name
+                            </button>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <div class="w-75">
+            <div class="row gx-3 gy-3">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4">
+                        <div class="card product-card" style="cursor:pointer" data-title="@item.Name" data-description="@item.Information">
+                            <img src="/images/@item.Img" class="card-img-top" alt="@item.Name">
+                            <div class="card-body">
+                                <h6 class="card-title">@item.Name</h6>
+                                <p class="card-text">@item.Information</p>
+                                <p class="card-text"><small class="text-muted">Danh mục: @item.Category.Name</small></p>
+                                <p class="card-text">Giá: @item.Price.ToString("C")</p>
+                                <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-productName="@item.Name" asp-route-price="@item.Price" asp-route-ImageUrl="@item.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
+                                <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,196 @@
+﻿
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navbar Admin -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Admin Panel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a asp-action="Index" class="nav-link" asp-controller="Dashboard">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Index" class="nav-link" asp-controller="Product">Quản lý sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Index" class="nav-link" asp-controller="Category">Quản lý danh mục</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="Index" class="nav-link" asp-controller="Account">Quản lý tài khoản</a>
+                        </li>
+                    </ul>
+                    <div class="ms-auto">
+                        @if (Context.Session.GetString("Username") != null)
+                        {
+                            <div class="d-flex align-items-center">
+                                <span class="nav-link text-black me-3">
+                                    Xin chào Admin, @Context.Session.GetString("Username")
+                                </span>
+                                <a href="/" class="btn btn-success btn-sm">
+									Về trang chủ
+                                </a>
+                            </div>
+                        }
+                        else
+                        {
+                            <button type="button" class="btn btn-dark">
+                                <a asp-controller="Account" asp-action="Login" class="nav-link text-white">Đăng nhập</a>
+                            </button>
+                        }
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+            @RenderBody()
+        </div>
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Thông báo</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body" id="toast-body">
+                    <!-- Nội dung thông báo sẽ hiển thị ở đây -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        window.onload = function() {
+            var successMessage = '@TempData["success"]';
+            var errorMessage = '@TempData["error"]';
+
+            var toastBody = document.getElementById('toast-body');
+            var toastElement = document.getElementById('liveToast');
+
+            if (successMessage) {
+                toastBody.innerHTML = successMessage;
+                toastElement.classList.add('bg-success'); // Thêm màu xanh cho thông báo thành công
+                var toast = new bootstrap.Toast(toastElement);
+                toast.show();
+            } else if (errorMessage) {
+                toastBody.innerHTML = errorMessage;
+                toastElement.classList.add('bg-danger'); // Thêm màu đỏ cho thông báo lỗi
+                var toast = new bootstrap.Toast(toastElement);
+                toast.show();
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+    <!-- Thêm Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        // Hàm thay đổi class active cho các menu item
+        function setActiveTab(tabId) {
+            const tabs = document.querySelectorAll('.nav-link');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        // Chuyển đổi giữa các nội dung khi nhấn vào tab
+        document.getElementById("dashboardTab").onclick = function() {
+            setActiveTab("dashboardTab");
+            document.getElementById("dashboardContent").style.display = "block";
+            document.getElementById("productContent").style.display = "none";
+            document.getElementById("categoryContent").style.display = "none";
+            document.getElementById("accountContent").style.display = "none";
+        };
+
+        document.getElementById("productTab").onclick = function() {
+            setActiveTab("productTab");
+            document.getElementById("dashboardContent").style.display = "none";
+            document.getElementById("productContent").style.display = "block";
+            document.getElementById("categoryContent").style.display = "none";
+            document.getElementById("accountContent").style.display = "none";
+        };
+
+        document.getElementById("categoryTab").onclick = function() {
+            setActiveTab("categoryTab");
+            document.getElementById("dashboardContent").style.display = "none";
+            document.getElementById("productContent").style.display = "none";
+            document.getElementById("categoryContent").style.display = "block";
+            document.getElementById("accountContent").style.display = "none";
+        };
+
+        document.getElementById("accountTab").onclick = function() {
+            setActiveTab("accountTab");
+            document.getElementById("dashboardContent").style.display = "none";
+            document.getElementById("productContent").style.display = "none";
+            document.getElementById("categoryContent").style.display = "none";
+            document.getElementById("accountContent").style.display = "block";
+        };
+
+        // Biểu đồ sản phẩm theo loại
+        var ctx1 = document.getElementById('categoryChart').getContext('2d');
+        var categoryChart = new Chart(ctx1, {
+            type: 'pie',
+            data: {
+                labels: ['iPhone', 'iPad', 'Mac', 'Watch', 'Phụ kiện'],
+                datasets: [{
+                    label: 'Sản phẩm theo loại',
+                    data: [50, 30, 10, 5, 5],
+                    backgroundColor: ['#007bff', '#28a745', '#dc3545', '#ffc107', '#6c757d'],
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    tooltip: {
+                        enabled: true
+                    }
+                }
+            }
+        });
+
+        // Biểu đồ doanh thu theo tháng
+        var ctx2 = document.getElementById('revenueChart').getContext('2d');
+        var revenueChart = new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5'],
+                datasets: [{
+                    label: 'Doanh thu (VND)',
+                    data: [5000000, 7000000, 6000000, 8000000, 9000000],
+                    backgroundColor: '#007bff',
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

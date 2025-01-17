@@ -1,0 +1,54 @@
+﻿@model IEnumerable<AppleStore.Models.Category>
+
+@{
+    ViewData["Title"] = "Quản lý thể loại";
+}
+
+<h1>Danh sách thể loại</h1>
+
+<div class="text-end">
+    <a href="@Url.Action("Create", "Category")" class="btn btn-success">Thêm thể loại mới</a>
+</div>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Tên thể loại</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Name</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Category", new { id = category.Id })" class="btn btn-warning">Sửa</a>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteConfirmationModal-@category.Id">
+                        Xóa
+                    </button>
+
+                    <!-- Modal Xác Nhận -->
+                    <div class="modal fade" id="deleteConfirmationModal-@category.Id" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel-@category.Id" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="deleteConfirmationModalLabel-@category.Id">Xác nhận xóa</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Bạn có chắc chắn muốn xóa danh mục <strong>@category.Name</strong> không?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                                    <a href="@Url.Action("Delete", "Category", new { id = category.Id })" class="btn btn-danger">Xóa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

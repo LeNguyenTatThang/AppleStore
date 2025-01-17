@@ -1,0 +1,49 @@
+﻿@model IEnumerable<AppleStore.Models.Product>
+
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+}
+<h1>Danh sách sản phẩm</h1>
+
+<div class="text-end mb-3">
+    <a href="@Url.Action("Create", "Product", new { area = "Admin" })" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Thêm sản phẩm
+    </a>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Danh mục</th>
+            <th>Hình ảnh</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price.ToString("C")</td>
+                <td>@product.Category?.Name</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(product.Img))
+                    {
+                        <img src="../../images/@product.Img" alt="Hình ảnh sản phẩm" width="50" height="50" />
+                    }
+                    else
+                    {
+                        <span>Không có hình ảnh</span>
+                    }
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", "Product", new { area = "Admin", id = product.Id })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Delete", "Product", new { area = "Admin", id = product.Id })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

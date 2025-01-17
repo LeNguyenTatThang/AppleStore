@@ -1,0 +1,17 @@
+﻿@model AppleStore.Models.Category
+
+@{
+    ViewData["Title"] = "Sửa thể loại";
+}
+
+<h1>Sửa thể loại</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="Name">Tên thể loại</label>
+        <input type="text" class="form-control" id="Name" asp-for="Name" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Cập nhật thể loại</button>
+</form>
