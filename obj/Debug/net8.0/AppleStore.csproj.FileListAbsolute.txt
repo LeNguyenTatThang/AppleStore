@@ -172,3 +172,5 @@ C:\Users\Admin\source\repos\AppleStore\AppleStore\obj\Debug\net8.0\AppleStore.cs
 C:\Users\Admin\source\repos\AppleStore\AppleStore\obj\Debug\net8.0\AppleStore.csproj.Up2Date
 C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\RestSharp.dll
+C:\Users\Admin\source\repos\AppleStore\AppleStore\obj\Debug\net8.0\AppleStore.sourcelink.json
+C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\BCrypt.Net-Next.dll

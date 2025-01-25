@@ -2,6 +2,7 @@
 using AppleStore.Data;
 using AppleStore.Libraries;
 using AppleStore.Models.Momo;
+using AppleStore.Services;
 using AppleStore.Services.Momo;
 using AppleStore.Services.Vnpay;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -19,6 +20,7 @@ builder.Services.AddCors(options =>
                 .AllowCredentials();
         });
 });
+builder.Services.AddScoped<EmailService>();
 //Connect MomoAPI
 builder.Services.Configure<MomoOptionModel>(builder.Configuration.GetSection("MomoAPI"));
 builder.Services.AddScoped<IMomoService, MomoService>();
@@ -57,6 +59,11 @@ app.UseSession(); // Sử dụng session
 app.MapControllerRoute(
     name: "admin",
     pattern: "{controller=Dashboard}/{action=Index}/{id?}"
+);
+
+app.MapControllerRoute(
+    name: "Order",
+    pattern: "{controller=Order}/{action=Index}/{OrderId?}"
 );
 
 app.MapControllerRoute(

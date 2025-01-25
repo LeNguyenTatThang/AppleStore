@@ -1,0 +1,91 @@
+﻿@model IEnumerable<AppleStore.Models.Order>
+
+@{
+    ViewData["Title"] = "Danh sách đơn hàng";
+}
+
+<h2 class="mb-4">Danh sách đơn hàng</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<table class="container-fluid table table-bordered table-striped table-responsive">
+    <thead>
+        <tr>
+            <th style="width: 5%;">ID</th>
+            <th style="width: 15%;">Mã đơn hàng</th>
+            <th style="width: 15%;">Tên khách hàng</th>
+            <th style="width: 10%;">Thanh toán</th>
+            <th style="width: 15%;">Ngày đặt hàng</th>
+            <th style="width: 10%;">Tổng tiền</th>
+            <th style="width: 10%;">Trạng thái thanh toán</th>
+            <th style="width: 10%;">Trạng thái đơn hàng</th>
+            <th style="width: 20%;">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.OrderId</td>
+                <td>@order.CustomerName</td>
+                <td>@order.PaymentMethod</td>
+                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@string.Format("{0:C}", order.TotalAmount)</td>
+                <td>
+                    @if (order.PaymentStatus == "Success")
+                    {
+                        <span class="badge bg-success">Thành công</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Thất bại</span>
+                    }
+                </td>
+                <td>@order.OrderStatus</td>
+                <td>
+                    <div class="d-flex align-items-center gap-2">
+                    <a class="btn btn-primary btn-sm" href="@Url.Action("Detail", "Order", new { OrderId = order.OrderId })">Xem</a>
+                        <!-- Form cập nhật trạng thái -->
+                        <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center gap-2">
+                        <input type="hidden" name="id" value="@order.Id" />
+                            <!-- Dropdown trạng thái -->
+                            <select name="status" class="form-select form-select-sm" style="width: auto;">
+                            <option value="Processing" selected="@(order.OrderStatus == "Processing")">Đang xử lý</option>
+                            <option value="Completed" selected="@(order.OrderStatus == "Completed")">Hoàn thành</option>
+                            <option value="Cancelled" selected="@(order.OrderStatus == "Cancelled")">Hủy</option>
+
+                        </select>
+                            <!-- Nút cập nhật -->
+                            <button type="submit" class="btn btn-warning btn-sm">
+                                Cập nhật
+                            </button>
+                    </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    table {
+        table-layout: fixed;
+    }
+
+    th, td {
+        text-align: center;
+        vertical-align: middle;
+        word-wrap: break-word;
+    }
+
+    .btn {
+        white-space: nowrap;
+    }
+
+    .form-select {
+        min-width: 120px;
+    }
+</style>

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<AppleStore.Models.Product>
+
+<div class="container py-4">
+    <h5 class="mb-4">Kết quả tìm kiếm: @ViewBag.Keyword</h5>
+    <div class="row gx-4 gy-4">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm border-0" style="cursor:pointer;">
+                    <img src="/images/@product.Img" class="card-img-top" alt="@product.Name">
+                    <div class="card-body">
+                        <h6 class="card-title">@product.Name</h6>
+                        <p class="card-text">Giá: @product.Price.ToString("#,0")</p>
+                        <p class="card-text"><small class="text-muted">Danh mục: @product.Category.Name</small></p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.Id" asp-route-productName="@product.Name" asp-route-price="@product.Price" asp-route-ImageUrl="@product.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
+                            <a href="@Url.Action("Detail", "Product", new { id = product.Id })" class="btn btn-outline-primary btn-sm">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

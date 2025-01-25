@@ -1,0 +1,50 @@
+﻿@model AppleStore.Models.Order
+
+<div class="container mt-4">
+    <h2>Chi tiết đơn hàng</h2>
+    <hr />
+
+    <h4>Thông tin đơn hàng</h4>
+    <p><strong>Mã đơn hàng:</strong> @Model.OrderId</p>
+    <p><strong>Tên khách hàng:</strong> @Model.CustomerName</p>
+    <p><strong>Địa chỉ giao hàng:</strong> @Model.Address</p>
+    <p><strong>Số điện thoại:</strong> @Model.Phone</p>
+    <p><strong>Phương thức thanh toán:</strong> @Model.PaymentMethod</p>
+    <p><strong>Trạng thái thanh toán:</strong> @Model.PaymentStatus</p>
+    <p><strong>Tổng tiền:</strong> @Model.TotalAmount.ToString("C")</p>
+    <p><strong>Ngày đặt hàng:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</p>
+
+    <h4>Danh sách sản phẩm</h4>
+    @if (Model.OrderDetails != null && Model.OrderDetails.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                    <th>Tổng cộng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@item.ProductId</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price.ToString("C")</td>
+                        <td>@item.Total.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Không có sản phẩm nào trong đơn hàng này.</p>
+    }
+
+    <a href="@Url.Action("Index", "Order", new { area = "Admin" })" class="btn btn-secondary mt-3">Quay lại</a>
+</div>

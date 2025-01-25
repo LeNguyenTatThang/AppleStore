@@ -1,9 +1,12 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png
+wwwroot\images\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg
 wwwroot\images\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png
 wwwroot\images\8d287b7b-d8dc-4439-981c-6366e568871e_0022278_apple-watch-series-3-nhom_240.png
 wwwroot\images\8e819695-d094-4f4b-9e97-52687a28710f_0019776_green_550.jpeg
+wwwroot\images\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg
+wwwroot\images\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png
 wwwroot\images\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png
 wwwroot\images\eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png
 wwwroot\images\f1c055d1-eb65-4cf0-b83a-93cf41f1df14_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg

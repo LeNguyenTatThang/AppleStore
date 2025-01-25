@@ -1,27 +1,48 @@
-﻿@model IEnumerable<AppleStore.Models.Account>
+﻿@model IEnumerable<dynamic>
 
-@{
-    ViewData["Title"] = "Quản lý tài khoản";
-}
-
-<h1>Danh sách tài khoản</h1>
-
-
-<table class="table table-bordered mt-3">
-    <thead>
-        <tr>
-            <th>Tên đăng nhập</th>
-            <th>Quyền hạn</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var account in Model)
-        {
-            <tr>
-                <td>@account.Username</td>
-                <td> @account.Role</td>
-            </tr>
-        }
-    </tbody>
-
-</table>
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Danh sách tài khoản</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover align-middle">
+            <caption class="text-center">Danh sách tài khoản hiện tại trong hệ thống</caption>
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Tên tài khoản</th>
+                    <th>Email</th>
+                    <th>Họ và tên</th>
+                    <th>Số điện thoại</th>
+                    <th>Vai trò</th>
+                    <th>Trạng thái</th>
+                    <th>Ngày tạo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var account in Model)
+                {
+                    <tr>
+                        <td class="text-center">@account.AccountId</td>
+                        <td>@account.Username</td>
+                        <td>@account.Email</td>
+                        <td>@account.FullName</td>
+                        <td>@account.PhoneNumber</td>
+                        <td class="text-center">
+                            <span class="badge bg-primary">@account.Role</span>
+                        </td>
+                        <td class="text-center">
+                            @if (account.Status == "Active")
+                            {
+                                <span class="badge bg-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Không hoạt động</span>
+                            }
+                        </td>
+                        <td>@account.CreatedAt</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

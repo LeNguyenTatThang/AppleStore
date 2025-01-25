@@ -331,6 +331,88 @@
       ]
     },
     {
+      "Route": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.bs1fx7vbzw.jpeg",
+      "AssetFile": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bs1fx7vbzw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "AssetFile": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
       "Route": "images/87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.6cg0twlxc4.png",
       "AssetFile": "images/87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png",
       "Selectors": [],
@@ -573,6 +655,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.g123zsbdus.jpeg",
+      "AssetFile": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 17:11:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g123zsbdus"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        },
+        {
+          "Name": "label",
+          "Value": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "AssetFile": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 17:11:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "AssetFile": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.u1jmgpoy31.png",
+      "AssetFile": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1jmgpoy31"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
         }
       ]
     },

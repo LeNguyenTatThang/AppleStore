@@ -1,0 +1,44 @@
+﻿@model ProductViewModel
+
+<div class="container py-4">
+    <h5 class="mb-4">Danh sách sản phẩm</h5>
+
+    <!-- Danh sách sản phẩm -->
+    <div class="row gx-4 gy-4">
+        @foreach (var item in Model.Products)
+        {
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0">
+                    <img src="/images/@item.Img" class="card-img-top" alt="@item.Name">
+                    <div class="card-body">
+                        <h6 class="card-title">@item.Name</h6>
+                        <p class="card-text">Giá: @item.Price.ToString("#,0")</p>
+                        <p class="card-text"><small class="text-muted">Danh mục: @item.Category.Name</small></p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-productName="@item.Name" asp-route-price="@item.Price" asp-route-ImageUrl="@item.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
+                            <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="btn btn-outline-primary btn-sm">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Phân trang -->
+    <div class="d-flex justify-content-center mt-4">
+        <ul class="pagination">
+            <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", "Product", new { page = 1, keyword = Model.Keyword })">Đầu</a>
+            </li>
+            <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", "Product", new { page = Model.CurrentPage - 1, keyword = Model.Keyword })">Trước</a>
+            </li>
+            <li class="page-item @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", "Product", new { page = Model.CurrentPage + 1, keyword = Model.Keyword })">Tiếp theo</a>
+            </li>
+            <li class="page-item @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", "Product", new { page = Model.TotalPages, keyword = Model.Keyword })">Cuối</a>
+            </li>
+        </ul>
+    </div>
+</div>

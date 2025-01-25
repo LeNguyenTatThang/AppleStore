@@ -9,28 +9,30 @@ namespace AppleStore.Data
         public DbSet<Category> Category { get; set; }
         public DbSet<Account> Account { get; set; }
 
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Cấu hình quan hệ giữa Product và Category
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.Category)
                 .WithMany(c => c.Product)
                 .HasForeignKey(p => p.CategoryId);
+            modelBuilder.Entity<OrderDetail>()
+                .HasOne(od => od.Order)  // Mỗi OrderDetail có 1 Order
+                .WithMany(o => o.OrderDetails)  // Mỗi Order có nhiều OrderDetail
+                .HasForeignKey(od => od.OrderId)  // Sử dụng OrderId kiểu string làm khóa ngoại
+                .HasPrincipalKey(o => o.OrderId);
         }
-
-        // Phương thức này để enable sensitive data logging (cho việc debug, không dùng trong production)
         public static void EnableSensitiveLogging(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.EnableSensitiveDataLogging();
         }
 
-        // Đảm bảo chỉ có một instance của một entity với cùng key được attach vào DbContext
         public void EnsureSingleEntityTracking(Product product)
         {
             var trackedProduct = this.ChangeTracker.Entries<Product>()
@@ -38,11 +40,9 @@ namespace AppleStore.Data
 
             if (trackedProduct != null)
             {
-                // Nếu entity đã được track, detach entity cũ
                 trackedProduct.State = EntityState.Detached;
             }
 
-            // Thực hiện cập nhật entity hoặc thêm mới
             this.Product.Update(product);
         }
     }

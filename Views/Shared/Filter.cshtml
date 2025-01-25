@@ -1,0 +1,72 @@
+﻿@model IEnumerable<AppleStore.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        
+        <div class="me-5 py-3 d-flex justify-content-end">
+            <div class="col">
+                <h3>Danh sách sản phẩm</h3>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-filter"></i> Lọc
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="filterDropdown">
+                    <li>
+                        <a class="dropdown-item" asp-action="Index" asp-controller="Home">
+                            Mặc định
+                        </a>
+                    </li>
+                    <!-- Sort by Name Ascending -->
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "name_asc" })">
+                            <i class="fas fa-sort-alpha-down"></i> A → Z
+                        </a>
+                    </li>
+                    <!-- Sort by Name Descending -->
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "name_desc" })">
+                            <i class="fas fa-sort-alpha-up"></i> Z → A
+                        </a>
+                    </li>
+                    <!-- Sort by Price Ascending -->
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "price_asc" })">
+                            <i class="fas fa-sort-amount-up"></i> Giá tăng dần
+                        </a>
+                    </li>
+                    <!-- Sort by Price Descending -->
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "price_desc" })">
+                            <i class="fas fa-sort-amount-down"></i> Giá giảm dần
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="../../images/@product.Img" class="card-img-top" alt="@product.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Information</p>
+                        <p class="card-text">Giá: @product.Price.ToString("#,0") VND</p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.Id" asp-route-productName="@product.Name" asp-route-price="@product.Price" asp-route-ImageUrl="@product.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
+                            <a href="@Url.Action("Detail", "Product", new { id = product.Id })" class="btn btn-outline-primary btn-sm">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

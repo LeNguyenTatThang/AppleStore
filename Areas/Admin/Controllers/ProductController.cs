@@ -108,8 +108,6 @@ namespace AppleStore.Areas.Admin.Controllers
 
             ViewBag.Categories = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
 
-            try
-            {
                 if (product.Image != null)
                 {
                     string uploadsDir = Path.Combine(_webHostEnviroment.WebRootPath, "images");
@@ -138,12 +136,8 @@ namespace AppleStore.Areas.Admin.Controllers
 
                 TempData["success"] = "Cập nhật sản phẩm thành công";
                 return RedirectToAction("Index");
-            }
-            catch (Exception ex)
-            {
-                TempData["error"] = "Đã có lỗi xảy ra khi cập nhật sản phẩm.";
-                return RedirectToAction("Index");
-            }
+            
+            
         }
 
         //Xóa sản phẩm

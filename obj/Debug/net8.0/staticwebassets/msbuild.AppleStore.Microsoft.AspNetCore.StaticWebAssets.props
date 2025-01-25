@@ -72,6 +72,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AppleStore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AppleStore</BasePath>
+      <RelativePath>images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bs1fx7vbzw</Fingerprint>
+      <Integrity>NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png'))">
       <SourceType>Package</SourceType>
       <SourceId>AppleStore</SourceId>
@@ -125,6 +143,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8e819695-d094-4f4b-9e97-52687a28710f_0019776_green_550.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AppleStore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AppleStore</BasePath>
+      <RelativePath>images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g123zsbdus</Fingerprint>
+      <Integrity>7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AppleStore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AppleStore</BasePath>
+      <RelativePath>images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u1jmgpoy31</Fingerprint>
+      <Integrity>DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png'))">
       <SourceType>Package</SourceType>

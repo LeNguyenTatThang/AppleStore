@@ -1,0 +1,40 @@
+﻿@model AppleStore.Models.Momo.MomoExecuteResponseModel
+
+<div class="container mt-5">
+    <h2 class="text-center @(Model.IsSuccess ? "text-success" : "text-danger")">
+        @(Model.IsSuccess ? "Thanh toán thành công!" : "Thanh toán thất bại")
+    </h2>
+
+    <p class="text-center">
+        Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi.
+    </p>
+
+    <div class="card mt-4">
+        <div class="card-header bg-primary text-white">
+            <h4>Thông tin thanh toán</h4>
+        </div>
+        <div class="card-body">
+            <p><strong>Thông tin đơn hàng:</strong> @Model.OrderInfo</p>
+            <p><strong>Mã đơn hàng:</strong> @Model.OrderId</p>
+            <p><strong>Số tiền:</strong> @($"{Model.Amount:N0} VND")</p>
+            <p>
+                <strong>Trạng thái thanh toán:</strong>
+                <span class="fw-bold @(Model.IsSuccess ? "text-success" : "text-danger")">
+                    @(Model.IsSuccess ? "Thành công" : "Thất bại")
+                </span>
+            </p>
+        </div>
+        <div class="card-footer text-center">
+            <p class="text-muted">
+                Vui lòng kiểm tra email của bạn để biết thêm thông tin chi tiết về giao dịch.
+            </p>
+        </div>
+    </div>
+
+    @if (!Model.IsSuccess)
+    {
+        <div class="alert alert-danger mt-3">
+            Giao dịch của bạn đã thất bại. Vui lòng thử lại hoặc liên hệ hỗ trợ.
+        </div>
+    }
+</div>

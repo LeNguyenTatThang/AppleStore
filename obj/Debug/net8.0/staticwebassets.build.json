@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SyGvQJibYb764ZOaizcc1H0vzDJi8abAzB/oTmXLdTE=",
+  "Hash": "CnWoQy0Jmdzsyn4sfUsXRLJeZe8QJ0NZitpcB5HfhvI=",
   "Source": "AppleStore",
   "BasePath": "_content/AppleStore",
   "Mode": "Default",
@@ -122,6 +122,27 @@
       "OriginalItemSpec": "wwwroot\\images\\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bs1fx7vbzw",
+      "Integrity": "NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
@@ -183,6 +204,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\8e819695-d094-4f4b-9e97-52687a28710f_0019776_green_550.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g123zsbdus",
+      "Integrity": "7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u1jmgpoy31",
+      "Integrity": "DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png",
@@ -1878,6 +1941,88 @@
       ]
     },
     {
+      "Route": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.bs1fx7vbzw.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bs1fx7vbzw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
       "Route": "images/87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.6cg0twlxc4.png",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png",
       "Selectors": [],
@@ -2120,6 +2265,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.g123zsbdus.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 17:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g123zsbdus"
+        },
+        {
+          "Name": "label",
+          "Value": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 17:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.u1jmgpoy31.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 12:23:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1jmgpoy31"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
         }
       ]
     },

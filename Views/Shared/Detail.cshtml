@@ -11,9 +11,12 @@
 
         <!-- Cột hiển thị thông tin sản phẩm (col-6) -->
         <div class="col-md-6">
-            <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+            <p><strong>Price:</strong> @Model.Price.ToString("#,0")</p>
             <p><strong>Information:</strong> @Model.Information</p>
-
+            <div class="d-flex justify-content-between">
+                <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@Model.Id" asp-route-productName="@Model.Name" asp-route-price="@Model.Price" asp-route-ImageUrl="@Model.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
+                
+            </div>
             <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Back to Products</a>
         </div>
     </div>

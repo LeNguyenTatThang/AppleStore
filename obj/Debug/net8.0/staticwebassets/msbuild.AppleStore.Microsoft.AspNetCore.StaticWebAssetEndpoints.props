@@ -48,6 +48,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ssz7l9xi7y"},{"Name":"integrity","Value":"sha256-/DmAfhNkU0NIZfA5Akq4lyo9g/aquSODUEuxmkqqjE0="},{"Name":"label","Value":"_content/AppleStore/images/38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67901"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/DmAfhNkU0NIZfA5Akq4lyo9g/aquSODUEuxmkqqjE0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 08:39:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AppleStore/images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.bs1fx7vbzw.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bs1fx7vbzw"},{"Name":"integrity","Value":"sha256-NVwKETodTbvoTxv8Uz9p\u002Bu4O0yo2AiGC19jTFJZueLU="},{"Name":"label","Value":"_content/AppleStore/images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27046"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NVwKETodTbvoTxv8Uz9p\u002Bu4O0yo2AiGC19jTFJZueLU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 12:23:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AppleStore/images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NVwKETodTbvoTxv8Uz9p\u002Bu4O0yo2AiGC19jTFJZueLU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27046"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NVwKETodTbvoTxv8Uz9p\u002Bu4O0yo2AiGC19jTFJZueLU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 12:23:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AppleStore/images/87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.6cg0twlxc4.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -83,6 +95,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7O9VHsBEe9eiZO\u002BV9vx5OUUydnQA1oNPQy\u002BrQx/tUfk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227O9VHsBEe9eiZO\u002BV9vx5OUUydnQA1oNPQy\u002BrQx/tUfk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 08:39:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AppleStore/images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.g123zsbdus.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g123zsbdus"},{"Name":"integrity","Value":"sha256-7O9VHsBEe9eiZO\u002BV9vx5OUUydnQA1oNPQy\u002BrQx/tUfk="},{"Name":"label","Value":"_content/AppleStore/images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227O9VHsBEe9eiZO\u002BV9vx5OUUydnQA1oNPQy\u002BrQx/tUfk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 17:11:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AppleStore/images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7O9VHsBEe9eiZO\u002BV9vx5OUUydnQA1oNPQy\u002BrQx/tUfk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227O9VHsBEe9eiZO\u002BV9vx5OUUydnQA1oNPQy\u002BrQx/tUfk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 17:11:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AppleStore/images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DuI255Xi\u002B7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34807"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DuI255Xi\u002B7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 12:23:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AppleStore/images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.u1jmgpoy31.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u1jmgpoy31"},{"Name":"integrity","Value":"sha256-DuI255Xi\u002B7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="},{"Name":"label","Value":"_content/AppleStore/images/d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34807"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DuI255Xi\u002B7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 12:23:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AppleStore/images/ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png'))</AssetFile>

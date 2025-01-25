@@ -2,14 +2,19 @@
 using Microsoft.EntityFrameworkCore;
 using AppleStore.Data;
 using AppleStore.Models;
+using AppleStore.Services;
 
+[Route("Account/[action]")]
 public class AccountController : Controller
 {
+    
     private readonly ApplicationDbContext _context;
+    private readonly EmailService _emailService;
 
-    public AccountController(ApplicationDbContext context)
+    public AccountController(ApplicationDbContext context, EmailService emailService)
     {
         _context = context;
+        _emailService = emailService;
     }
 
     [HttpGet]
@@ -17,42 +22,162 @@ public class AccountController : Controller
     {
         return View();
     }
+    public IActionResult Register()
+    {
+        return View();
+    }
+
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
 
     [HttpPost]
     public async Task<IActionResult> Login(string username, string password)
     {
-        // Kiểm tra tài khoản và mật khẩu từ cơ sở dữ liệu
         var user = await _context.Account
-                                  .FirstOrDefaultAsync(u => u.Username == username && u.Password == password);
-
+    .Where(a => a.Username == username )
+    .Select(a => new
+    {
+        a.AccountId,
+        a.Username,
+        a.Email,
+        a.Password,
+        a.FullName,
+        a.Role,
+        a.Status
+    })
+    .SingleOrDefaultAsync();
         if (user != null)
         {
-            // Lưu thông tin vào session
+            if (!BCrypt.Net.BCrypt.Verify(password, user.Password))
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt. Incorrect password.");
+                return View();
+            }
+
             HttpContext.Session.SetString("Username", user.Username);
             HttpContext.Session.SetString("UserRole", user.Role);
 
-            // Kiểm tra vai trò của người dùng
             if (user.Role == "Admin")
             {
-                // Chuyển hướng tới Admin Dashboard nếu là Admin
                 return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
             }
             else if (user.Role == "User")
             {
-                // Chuyển hướng tới Home nếu là User
                 return RedirectToAction("Index", "Home");
             }
         }
         else
         {
-            // Nếu đăng nhập không thành công, thêm lỗi vào model
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             return View();
         }
 
-        // Mặc định trả về view login nếu không thành công
         return View();
     }
+    [HttpPost]
+    public async Task<IActionResult> Register(string username, string fullname, string password, string email)
+    {
+        // Kiểm tra username và email đã tồn tại chưa, mã hóa mật khẩu, và lưu tài khoản
+        var existingUser = await _context.Account
+                                          .FirstOrDefaultAsync(u => u.Username == username);
+
+        if (existingUser != null)
+        {
+            ModelState.AddModelError("Username", "Tên tài khoản đã tồn tại.");
+            return View(); // Trả lại View với thông báo lỗi
+        }
+
+        var existingEmail = await _context.Account
+                                           .FirstOrDefaultAsync(u => u.Email == email);
+
+        if (existingEmail != null)
+        {
+            ModelState.AddModelError("Email", "Email đã được đăng ký.");
+            return View(); // Trả lại View với thông báo lỗi
+        }
+
+        string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+
+        var newAccount = new Account
+        {
+            Username = username,
+            FullName = fullname,
+            Password = passwordHash,
+            Email = email,
+            CreatedAt = DateTime.Now,
+            Status = "Active",
+            Role = "User" // Mặc định là User
+        };
+
+        _context.Account.Add(newAccount);
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction("Login", "Account");
+    }
+    [HttpPost]
+    public async Task<IActionResult> ForgotPassword(string email)
+    {
+        var user = await _context.Account.FirstOrDefaultAsync(u => u.Email == email);
+
+        if (user == null)
+        {
+            return Json(new { success = false, message = "Email không tồn tại!" });
+        }
+
+        // Tạo ResetPasswordToken
+        user.ResetPasswordToken = Guid.NewGuid().ToString();
+        user.ResetTokenExpires = DateTime.Now.AddHours(1); // Token có hiệu lực trong 1 giờ
+        await _context.SaveChangesAsync();
+
+        // Gửi email đặt lại mật khẩu (giả sử URL: /Account/ResetPassword?token=...)
+        string resetLink = Url.Action("ResetPassword", "Account", new { token = user.ResetPasswordToken }, Request.Scheme);
+
+        // Sử dụng dịch vụ gửi email (ví dụ: SMTP hoặc thư viện như SendGrid)
+        await _emailService.SendEmailAsync(user.Email, "Đặt lại mật khẩu", $"Click vào link để đặt lại mật khẩu: {resetLink}");
+
+        return Json(new { success = true, message = "Hãy kiểm tra email của bạn để đặt lại mật khẩu." });
+    }
+    [HttpGet]
+    public async Task<IActionResult> ResetPassword(string token)
+    {
+        var user = await _context.Account.FirstOrDefaultAsync(u => u.ResetPasswordToken == token && u.ResetTokenExpires > DateTime.Now);
+
+        if (user == null)
+        {
+            return View("Error"); // Hiển thị trang lỗi nếu token không hợp lệ
+        }
+
+        return View(new ResetPasswordViewModel { Token = token });
+    }
+    [HttpPost]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            var user = await _context.Account
+                .FirstOrDefaultAsync(u => u.ResetPasswordToken == model.Token);
+
+            if (user != null)
+            {
+                user.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
+                user.ResetPasswordToken = null; // Xóa token sau khi đã đặt lại mật khẩu
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Login", "Account");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Token không hợp lệ hoặc đã hết hạn.");
+            }
+        }
+
+        return View(model);
+    }
+
 
 
     public IActionResult Logout()

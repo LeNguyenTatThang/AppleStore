@@ -7,6 +7,13 @@ using AppleStore.Libraries;
 using AppleStore.Services.Momo;
 using Azure;
 using Microsoft.AspNetCore.Http;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using AppleStore.Data;
+using AppleStore.Models.Momo;
+using AppleStore.Models.Vnpay;
+using System.Net;
+
 namespace AppleStore.Controllers
 {
     public class CartController : Controller
@@ -15,28 +22,47 @@ namespace AppleStore.Controllers
         private const string CartSessionKey = "Cart";
         private readonly VnPayLibrary _vnPayLibrary;
         private readonly IMomoService _momoService;
+        private readonly ApplicationDbContext _dbContext;
 
-        public CartController(IMomoService momoService, VnPayLibrary vnPayLibrary)
+        public CartController(IMomoService momoService, VnPayLibrary vnPayLibrary, IVnPayService vnPayService, ApplicationDbContext context)
         {
             _momoService = momoService;
             _vnPayLibrary = vnPayLibrary;
+            _vnPayService = vnPayService;
+            _dbContext = context; 
+        }
+        public IActionResult ResultCallbackVnpay()
+        {
+            return View();
         }
         public IActionResult Index()
-        {
-            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
+        {
+            var username = HttpContext.Session.GetString("Username");
+            ViewBag.Username = username;
+            if(string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
             if (cart == null)
             {
                 cart = new List<CartItem>();
             }
 
-            var username = HttpContext.Session.GetString("Username");
-            ViewBag.Username = username;
             return View(cart);
         }
 
         public IActionResult AddToCart(int productId, string productName, decimal price, string imageUrl)
         {
+            var username = HttpContext.Session.GetString("Username");
+            ViewBag.Username = username;
+            if (string.IsNullOrEmpty(username))
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
             if (cart == null)
@@ -115,40 +141,190 @@ namespace AppleStore.Controllers
 
             return RedirectToAction("Index");
         }
+        private List<OrderDetail> SaveOrderDetails(List<CartItem> cart, string orderId)
+        {
+            if (cart == null || !cart.Any())
+            {
+                throw new ArgumentException("Cart không hợp lệ!");
+            }
 
-        //public IActionResult PaymentCallbackVnpay()
-        //{
-        //    return View("PaymentCallbackVnpay");
-        //}
+            var orderDetails = cart.Select(item => new OrderDetail
+            {
+                OrderId = orderId,
+                ProductId = item.ProductId,
+                ProductName = item.ProductName,
+                Quantity = item.Quantity,
+                Price = item.Price,
+                Total = item.Quantity * item.Price
+            }).ToList();
+
+            // Lưu danh sách OrderDetail vào database
+            _dbContext.OrderDetails.AddRange(orderDetails);
+            _dbContext.SaveChanges();
+
+            return orderDetails;
+        }
+
 
         [Route("Cart/PaymentCallbackVnpay")]
-        public IActionResult PaymentCallbackVnpay()
+        public async Task<IActionResult> PaymentCallbackVnpay()
         {
             var response = _vnPayService.PaymentExecute(Request.Query);
-            if(response.Success == true)
-            TempData["Success"] = "Thanh toán thành công!";
-            return View("PaymentSuccess", response);
-        }
-        public IActionResult PaymentCallBack()
-        {
-            // Lấy thông tin giao dịch từ Momo
-            var response =  _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
-            Console.WriteLine("check res :", response);
-            // Kiểm tra nếu không có mã đơn hàng
-            if (Response.StatusCode == 0)
+
+            var CustomerName = HttpContext.Session.GetString("CustomerName");
+                var Address = HttpContext.Session.GetString("Address");
+                var Phone = HttpContext.Session.GetString("Phone");
+                var TotalAmount = HttpContext.Session.GetDecimal("TotalAmount");
+            if (response.VnPayResponseCode == "00")
             {
                 
-                TempData["Success"] = "Thanh toán thành công!";
-                return View("PaymentSuccess", response);
-             }
-            else 
-            {
-                TempData["Error"] = "Giao dịch đã bị hủy.";
-                return View("PaymentSuccess");
+                var checkOrder = new Order
+                {
+                    CustomerName = CustomerName,
+                    Address = Address,
+                    Phone = Phone,
+                    TotalAmount = TotalAmount,
+                    PaymentMethod = response.PaymentMethod,
+                    OrderId = response.OrderId,
+                    PaymentStatus = "Success",
+                    OrderStatus = "Processing",
+                    OrderDate = DateTime.Now
+                };
+
+                // Lưu vào database
+                _dbContext.Orders.Add(checkOrder);
+                await _dbContext.SaveChangesAsync();
+                var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
+
+                // Kiểm tra giỏ hàng có dữ liệu hay không
+                if (cart == null || !cart.Any())
+                {
+                    // Trường hợp giỏ hàng trống
+                    ViewBag.Message = "Giỏ hàng của bạn đang trống.";
+                    return RedirectToAction("Index", "Home");
+                }
+
+                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
+                SaveOrderDetails(cart, checkOrder.OrderId);
+                ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
             }
+            else
+            {
+                var checkOrder = new Order
+                {
+                    CustomerName = CustomerName,
+                    Address = Address,
+                    Phone = Phone,
+                    TotalAmount = TotalAmount,
+                    PaymentMethod = response.PaymentMethod,
+                    OrderId = response.OrderId,
+                    PaymentStatus = "Fail",
+                    OrderStatus = "Processing",
+                    OrderDate = DateTime.Now
+                };
+
+                // Lưu vào database
+                _dbContext.Orders.Add(checkOrder);
+                await _dbContext.SaveChangesAsync();
+                var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
+
+                // Kiểm tra giỏ hàng có dữ liệu hay không
+                if (cart == null || !cart.Any())
+                {
+                    // Trường hợp giỏ hàng trống
+                    ViewBag.Message = "Giỏ hàng của bạn đang trống.";
+                    return RedirectToAction("Index", "Home");
+                }
+
+                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
+                SaveOrderDetails(cart, checkOrder.OrderId);
+                ViewBag.Message = "Thanh toán thất bại. Vui lòng thử lại hoặc liên hệ hỗ trợ.";
+            }
+
+            // Trả dữ liệu ra view
+            return View("ResultCallbackVnpay", response);
+
         }
 
 
-    }
+        [HttpGet]
+        public async Task<IActionResult> PaymentCallBack()
+        {
+            // Gọi dịch vụ để xử lý callback từ Momo
+            var response = await _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
+            var requestQuery = HttpContext.Request.Query;
 
+            var CustomerName = HttpContext.Session.GetString("CustomerName");
+            var Address = HttpContext.Session.GetString("Address");
+            var Phone = HttpContext.Session.GetString("Phone");
+            var TotalAmount = HttpContext.Session.GetDecimal("TotalAmount");
+
+            if (response.IsSuccess)
+            {
+                var checkOrder = new Order
+                {
+                    CustomerName = CustomerName,
+                    Address = Address,
+                    Phone = Phone,
+                    TotalAmount = TotalAmount,
+                    PaymentMethod = "Momo",
+                    OrderId = requestQuery["orderId"],
+                    PaymentStatus = "Success",
+                    OrderStatus = "Procesing",
+                    OrderDate = DateTime.Now
+                };
+
+                // Lưu vào database
+                _dbContext.Orders.Add(checkOrder);
+                await _dbContext.SaveChangesAsync();
+                var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
+
+                // Kiểm tra giỏ hàng có dữ liệu hay không
+                if (cart == null || !cart.Any())
+                {
+                    // Trường hợp giỏ hàng trống
+                    ViewBag.Message = "Giỏ hàng của bạn đang trống.";
+                    return RedirectToAction("Index", "Home");
+                }
+
+                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
+                SaveOrderDetails(cart, checkOrder.OrderId);
+                ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
+            }
+            else
+            {
+                var checkOrder = new Order
+                {
+                    CustomerName = CustomerName,
+                    Address = Address,
+                    Phone = Phone,
+                    TotalAmount = TotalAmount,
+                    PaymentMethod = "Momo",
+                    OrderId = requestQuery["orderId"],
+                    PaymentStatus = "Fail",
+                    OrderStatus = "Procesing",
+                    OrderDate = DateTime.Now
+                };
+                // Lưu vào database
+                _dbContext.Orders.Add(checkOrder);
+                await _dbContext.SaveChangesAsync();
+                var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
+
+                // Kiểm tra giỏ hàng có dữ liệu hay không
+                if (cart == null || !cart.Any())
+                {
+                    // Trường hợp giỏ hàng trống
+                    ViewBag.Message = "Giỏ hàng của bạn đang trống.";
+                    return RedirectToAction("Index", "Home");
+                }
+
+                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
+                SaveOrderDetails(cart, checkOrder.OrderId);
+                ViewBag.Message = "Thanh toán thất bại. Vui lòng thử lại hoặc liên hệ hỗ trợ.";
+            }
+
+            return View("PaymentCallback", response);
+        }
+
+    }
 }

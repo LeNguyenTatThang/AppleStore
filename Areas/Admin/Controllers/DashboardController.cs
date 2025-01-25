@@ -8,11 +8,6 @@ namespace AppleStore.Areas.Admin.Controllers
     [Route("Admin/Dashboard")]
     public class DashboardController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        public DashboardController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
         [HttpGet("")]
         public IActionResult Index()
         {
