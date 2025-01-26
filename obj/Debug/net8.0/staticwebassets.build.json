@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CnWoQy0Jmdzsyn4sfUsXRLJeZe8QJ0NZitpcB5HfhvI=",
+  "Hash": "XXZ0Q06Gq1C92Srzvc6C3gkb/9FczPLQjaniUJFBZLg=",
   "Source": "AppleStore",
   "BasePath": "_content/AppleStore",
   "Mode": "Default",
@@ -101,6 +101,615 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ts159u4zmk",
+      "Integrity": "XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001395_sac-20w-usb-c-power-adapter_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0001395_sac-20w-usb-c-power-adapter_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mvkmq3hpz7",
+      "Integrity": "zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0001395_sac-20w-usb-c-power-adapter_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001421_magic-mouse-2_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0001421_magic-mouse-2_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8avbmbrtw",
+      "Integrity": "k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0001421_magic-mouse-2_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0006205_ipad-gen-9-102-inch-wifi-64gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q0j9627ar1",
+      "Integrity": "isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u1jmgpoy31",
+      "Integrity": "DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0009725_ipad-gen-10-th-109-inch-wifi-64gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ntxsh3bpat",
+      "Integrity": "OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0012020_airpods-pro-2021_240.webp",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0012020_airpods-pro-2021_240#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "609537ge2y",
+      "Integrity": "KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0012020_airpods-pro-2021_240.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0022022_airpods-pro-2-usb-c-2023_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0zyjagyioc",
+      "Integrity": "zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0022022_airpods-pro-2-usb-c-2023_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0024430_iphone-13-128gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0024430_iphone-13-128gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4r0i9skrr",
+      "Integrity": "sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0024430_iphone-13-128gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0025624_ipad-pro-m4-11-inch-wi-fi_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ss4h9l2175",
+      "Integrity": "jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0025630_ipad-air-6-m2-13-inch-wi-fi_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8zoewahqvz",
+      "Integrity": "DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0026434_apple-pencil-pro_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0026434_apple-pencil-pro_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "02hieh8iq9",
+      "Integrity": "2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0026434_apple-pencil-pro_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029155_iphone-16-pro-max-256gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0029155_iphone-16-pro-max-256gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3bz3st98go",
+      "Integrity": "gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0029155_iphone-16-pro-max-256gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nwf0t9qpas",
+      "Integrity": "ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029778_airpods-4_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0029778_airpods-4_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ypqyv9uug9",
+      "Integrity": "OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0029778_airpods-4_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0029786_airpods-max-cong-usb-c-2024_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7bzam0yeub",
+      "Integrity": "vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0029786_airpods-max-cong-usb-c-2024_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hinj8fpvdp",
+      "Integrity": "yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030444_iphone-16-pro-128gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0030444_iphone-16-pro-128gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4kex7exlsc",
+      "Integrity": "9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0030444_iphone-16-pro-128gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0030450_apple-watch-se-gps-2024-sport-band-size-sm_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yv3y16r1os",
+      "Integrity": "LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030771_iphone-16-128gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0030771_iphone-16-128gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gfl62wk6y",
+      "Integrity": "dE8b5UqJb8oQ3in+wI5L4CUa7bS6lF77PzpVPHAUMm0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0030771_iphone-16-128gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ax8klzwijn",
+      "Integrity": "0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bs1fx7vbzw",
+      "Integrity": "NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lwxxjev4c5",
+      "Integrity": "5QTArn9P8M8pqdTepgwVV+uXNibx/lKrT4vPqcJ4uW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a57c05hts7",
+      "Integrity": "0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4r0i9skrr",
+      "Integrity": "sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a57c05hts7",
+      "Integrity": "0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3bz3st98go",
+      "Integrity": "gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bs1fx7vbzw",
+      "Integrity": "NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u1jmgpoy31",
+      "Integrity": "DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
@@ -122,6 +731,27 @@
       "OriginalItemSpec": "wwwroot\\images\\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ss4h9l2175",
+      "Integrity": "jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
@@ -141,6 +771,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mvkmq3hpz7",
+      "Integrity": "zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "02hieh8iq9",
+      "Integrity": "2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nwf0t9qpas",
+      "Integrity": "ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "609537ge2y",
+      "Integrity": "KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q0j9627ar1",
+      "Integrity": "isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7bzam0yeub",
+      "Integrity": "vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ntxsh3bpat",
+      "Integrity": "OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png",
@@ -206,6 +983,27 @@
       "OriginalItemSpec": "wwwroot\\images\\8e819695-d094-4f4b-9e97-52687a28710f_0019776_green_550.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8avbmbrtw",
+      "Integrity": "k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
@@ -225,6 +1023,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ts159u4zmk",
+      "Integrity": "XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ax8klzwijn",
+      "Integrity": "0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8zoewahqvz",
+      "Integrity": "DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner1.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/banner1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m2f8iz1cop",
+      "Integrity": "sjMylTEFvDK0qCsjBmpL4/yIKrILTDzm1wPBsuh+OQE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner2.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/banner2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lfwx6ey4es",
+      "Integrity": "cQCeA3BVIT5YP/90E/jweVZwwhAYI3CvWXgvYUjW2C0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner3.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/banner3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ql7xnn8pnp",
+      "Integrity": "Qmh+PqaUiW+uBEFVrQp84dRNOrnQyVGaZqtr/ftQ1ZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hinj8fpvdp",
+      "Integrity": "yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
@@ -248,6 +1193,69 @@
       "OriginalItemSpec": "wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4r0i9skrr",
+      "Integrity": "sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yv3y16r1os",
+      "Integrity": "LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ypqyv9uug9",
+      "Integrity": "OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
@@ -269,6 +1277,27 @@
       "OriginalItemSpec": "wwwroot\\images\\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4kex7exlsc",
+      "Integrity": "9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png",
       "SourceId": "AppleStore",
       "SourceType": "Discovered",
@@ -288,6 +1317,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "SourceId": "AppleStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\",
+      "BasePath": "_content/AppleStore",
+      "RelativePath": "images/f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0zyjagyioc",
+      "Integrity": "zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\f1c055d1-eb65-4cf0-b83a-93cf41f1df14_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
@@ -1859,6 +2909,2384 @@
       ]
     },
     {
+      "Route": "images/0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.ts159u4zmk.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts159u4zmk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg="
+        }
+      ]
+    },
+    {
+      "Route": "images/0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg="
+        }
+      ]
+    },
+    {
+      "Route": "images/0001395_sac-20w-usb-c-power-adapter_240.mvkmq3hpz7.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001395_sac-20w-usb-c-power-adapter_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mvkmq3hpz7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0001395_sac-20w-usb-c-power-adapter_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY="
+        }
+      ]
+    },
+    {
+      "Route": "images/0001395_sac-20w-usb-c-power-adapter_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001395_sac-20w-usb-c-power-adapter_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY="
+        }
+      ]
+    },
+    {
+      "Route": "images/0001421_magic-mouse-2_240.j8avbmbrtw.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001421_magic-mouse-2_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8avbmbrtw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0001421_magic-mouse-2_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU="
+        }
+      ]
+    },
+    {
+      "Route": "images/0001421_magic-mouse-2_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001421_magic-mouse-2_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU="
+        }
+      ]
+    },
+    {
+      "Route": "images/0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0006205_ipad-gen-9-102-inch-wifi-64gb_240.q0j9627ar1.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0j9627ar1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.u1jmgpoy31.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1jmgpoy31"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.ntxsh3bpat.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ntxsh3bpat"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I="
+        }
+      ]
+    },
+    {
+      "Route": "images/0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I="
+        }
+      ]
+    },
+    {
+      "Route": "images/0012020_airpods-pro-2021_240.609537ge2y.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0012020_airpods-pro-2021_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "609537ge2y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0012020_airpods-pro-2021_240.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk="
+        }
+      ]
+    },
+    {
+      "Route": "images/0012020_airpods-pro-2021_240.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0012020_airpods-pro-2021_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk="
+        }
+      ]
+    },
+    {
+      "Route": "images/0022022_airpods-pro-2-usb-c-2023_240.0zyjagyioc.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0zyjagyioc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0022022_airpods-pro-2-usb-c-2023_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30="
+        }
+      ]
+    },
+    {
+      "Route": "images/0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30="
+        }
+      ]
+    },
+    {
+      "Route": "images/0024430_iphone-13-128gb_240.g4r0i9skrr.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0024430_iphone-13-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:40:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4r0i9skrr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0024430_iphone-13-128gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/0024430_iphone-13-128gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0024430_iphone-13-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:40:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/0025624_ipad-pro-m4-11-inch-wi-fi_240.ss4h9l2175.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ss4h9l2175"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/0025630_ipad-air-6-m2-13-inch-wi-fi_240.8zoewahqvz.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8zoewahqvz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4="
+        }
+      ]
+    },
+    {
+      "Route": "images/0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4="
+        }
+      ]
+    },
+    {
+      "Route": "images/0026434_apple-pencil-pro_240.02hieh8iq9.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0026434_apple-pencil-pro_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:43:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02hieh8iq9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0026434_apple-pencil-pro_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/0026434_apple-pencil-pro_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0026434_apple-pencil-pro_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:43:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029155_iphone-16-pro-max-256gb_240.3bz3st98go.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029155_iphone-16-pro-max-256gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3bz3st98go"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0029155_iphone-16-pro-max-256gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029155_iphone-16-pro-max-256gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029155_iphone-16-pro-max-256gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.nwf0t9qpas.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nwf0t9qpas"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029778_airpods-4_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029778_airpods-4_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029778_airpods-4_240.ypqyv9uug9.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029778_airpods-4_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypqyv9uug9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0029778_airpods-4_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029786_airpods-max-cong-usb-c-2024_240.7bzam0yeub.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7bzam0yeub"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0029786_airpods-max-cong-usb-c-2024_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k="
+        }
+      ]
+    },
+    {
+      "Route": "images/0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.hinj8fpvdp.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hinj8fpvdp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030444_iphone-16-pro-128gb_240.4kex7exlsc.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030444_iphone-16-pro-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kex7exlsc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0030444_iphone-16-pro-128gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030444_iphone-16-pro-128gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030444_iphone-16-pro-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.yv3y16r1os.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv3y16r1os"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030771_iphone-16-128gb_240.4gfl62wk6y.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030771_iphone-16-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dE8b5UqJb8oQ3in+wI5L4CUa7bS6lF77PzpVPHAUMm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4gfl62wk6y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0030771_iphone-16-128gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dE8b5UqJb8oQ3in+wI5L4CUa7bS6lF77PzpVPHAUMm0="
+        }
+      ]
+    },
+    {
+      "Route": "images/0030771_iphone-16-128gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030771_iphone-16-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dE8b5UqJb8oQ3in+wI5L4CUa7bS6lF77PzpVPHAUMm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dE8b5UqJb8oQ3in+wI5L4CUa7bS6lF77PzpVPHAUMm0="
+        }
+      ]
+    },
+    {
+      "Route": "images/0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.ax8klzwijn.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ax8klzwijn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.bs1fx7vbzw.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bs1fx7vbzw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:41:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5QTArn9P8M8pqdTepgwVV+uXNibx/lKrT4vPqcJ4uW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5QTArn9P8M8pqdTepgwVV+uXNibx/lKrT4vPqcJ4uW4="
+        }
+      ]
+    },
+    {
+      "Route": "images/0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.lwxxjev4c5.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5QTArn9P8M8pqdTepgwVV+uXNibx/lKrT4vPqcJ4uW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lwxxjev4c5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5QTArn9P8M8pqdTepgwVV+uXNibx/lKrT4vPqcJ4uW4="
+        }
+      ]
+    },
+    {
+      "Route": "images/0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.a57c05hts7.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a57c05hts7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8="
+        }
+      ]
+    },
+    {
+      "Route": "images/04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.g4r0i9skrr.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:35:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4r0i9skrr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:35:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.a57c05hts7.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:52:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a57c05hts7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8="
+        }
+      ]
+    },
+    {
+      "Route": "images/053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:52:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0sxMrC78omPkc1OTzWYi8Do4Zq0mbyc10IjKIO+ZlT8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.3bz3st98go.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:51:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3bz3st98go"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:51:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWohh95kQp7nl1vremKX9Ysvk2cfmODMy0qUeV3Q3+8="
+        }
+      ]
+    },
+    {
+      "Route": "images/0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.bs1fx7vbzw.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bs1fx7vbzw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:40:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:42:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.u1jmgpoy31.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:42:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1jmgpoy31"
+        },
+        {
+          "Name": "label",
+          "Value": "images/27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuI255Xi+7G27PqXv1Vbizd1taewnypSdkgVAa5oSpQ="
+        }
+      ]
+    },
+    {
       "Route": "images/38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png",
       "Selectors": [],
@@ -1941,6 +5369,88 @@
       ]
     },
     {
+      "Route": "images/3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:38:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.ss4h9l2175.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:38:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ss4h9l2175"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jK95L/odNGYhVoTbA76kfYocL//y5RafF3p/9Sdlpj0="
+        }
+      ]
+    },
+    {
       "Route": "images/3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.bs1fx7vbzw.jpeg",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
       "Selectors": [],
@@ -2019,6 +5529,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-NVwKETodTbvoTxv8Uz9p+u4O0yo2AiGC19jTFJZueLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.mvkmq3hpz7.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mvkmq3hpz7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY="
+        }
+      ]
+    },
+    {
+      "Route": "images/3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zlZCoTMoidDCW2WV/TF0/7tuoxcna4Y5aoePOa9+TcY="
+        }
+      ]
+    },
+    {
+      "Route": "images/4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.02hieh8iq9.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02hieh8iq9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Ng/D+pODPg6svF3OZ2qhRwn4gIb/cr3UG2PFCFHfjw="
+        }
+      ]
+    },
+    {
+      "Route": "images/5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY="
+        }
+      ]
+    },
+    {
+      "Route": "images/5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.nwf0t9qpas.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nwf0t9qpas"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ec5Sy3LPzLL0SHVi4yIEdFBxEWRZRHgi68POfV/qslY="
+        }
+      ]
+    },
+    {
+      "Route": "images/5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.609537ge2y.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "609537ge2y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk="
+        }
+      ]
+    },
+    {
+      "Route": "images/5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:47:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KmSi/WCOgKDH2tqwYD7k7UnQdqYgE4ES1bH9HabUtuk="
+        }
+      ]
+    },
+    {
+      "Route": "images/5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:37:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8="
+        }
+      ]
+    },
+    {
+      "Route": "images/5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.q0j9627ar1.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:37:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0j9627ar1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-isbsPrWp0FNQ5FdhDjVp5rKkCsCuk9NnQi8lwgd2DP8="
+        }
+      ]
+    },
+    {
+      "Route": "images/742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.7bzam0yeub.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:49:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7bzam0yeub"
+        },
+        {
+          "Name": "label",
+          "Value": "images/742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k="
+        }
+      ]
+    },
+    {
+      "Route": "images/742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:49:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbgSJTNJIEXQzrddKE4JX6Cvzi5rnJ7BYzGsfWzit0k="
+        }
+      ]
+    },
+    {
+      "Route": "images/76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.ntxsh3bpat.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ntxsh3bpat"
+        },
+        {
+          "Name": "label",
+          "Value": "images/76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I="
+        }
+      ]
+    },
+    {
+      "Route": "images/76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyfAVMnTFLhK5ENc4C6p72YmLj32OOOrFzObP45Uz8I="
         }
       ]
     },
@@ -2269,6 +6353,88 @@
       ]
     },
     {
+      "Route": "images/9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.j8avbmbrtw.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:50:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8avbmbrtw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU="
+        }
+      ]
+    },
+    {
+      "Route": "images/9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:50:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k7itI+VwIFpwGO6RP2Z6euXh/UJwdAyktm3P5wTXolU="
+        }
+      ]
+    },
+    {
       "Route": "images/97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.g123zsbdus.jpeg",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
       "Selectors": [],
@@ -2347,6 +6513,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-7O9VHsBEe9eiZO+V9vx5OUUydnQA1oNPQy+rQx/tUfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.ts159u4zmk.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:42:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts159u4zmk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg="
+        }
+      ]
+    },
+    {
+      "Route": "images/a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:42:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XXm+KDx3IlFo8RSiNJs4MmLIoAjoz5h05d75oGjXjyg="
+        }
+      ]
+    },
+    {
+      "Route": "images/a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.ax8klzwijn.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:45:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ax8klzwijn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:45:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nRBIYLq6FOyl5gRmvlzYjBFt3xDm7b8hCgG/JzUYZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.8zoewahqvz.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8zoewahqvz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4="
+        }
+      ]
+    },
+    {
+      "Route": "images/b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DHIZoVy9u/yzfqdAa1BCc5AWtGUxO/Y20BYBa1ULyr4="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner1.m2f8iz1cop.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sjMylTEFvDK0qCsjBmpL4/yIKrILTDzm1wPBsuh+OQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:30:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m2f8iz1cop"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sjMylTEFvDK0qCsjBmpL4/yIKrILTDzm1wPBsuh+OQE="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner1.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sjMylTEFvDK0qCsjBmpL4/yIKrILTDzm1wPBsuh+OQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:30:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sjMylTEFvDK0qCsjBmpL4/yIKrILTDzm1wPBsuh+OQE="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner2.lfwx6ey4es.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "833885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cQCeA3BVIT5YP/90E/jweVZwwhAYI3CvWXgvYUjW2C0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:32:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lfwx6ey4es"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cQCeA3BVIT5YP/90E/jweVZwwhAYI3CvWXgvYUjW2C0="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner2.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "833885"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cQCeA3BVIT5YP/90E/jweVZwwhAYI3CvWXgvYUjW2C0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:32:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cQCeA3BVIT5YP/90E/jweVZwwhAYI3CvWXgvYUjW2C0="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner3.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qmh+PqaUiW+uBEFVrQp84dRNOrnQyVGaZqtr/ftQ1ZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qmh+PqaUiW+uBEFVrQp84dRNOrnQyVGaZqtr/ftQ1ZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner3.ql7xnn8pnp.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "536552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qmh+PqaUiW+uBEFVrQp84dRNOrnQyVGaZqtr/ftQ1ZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:32:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ql7xnn8pnp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qmh+PqaUiW+uBEFVrQp84dRNOrnQyVGaZqtr/ftQ1ZY="
+        }
+      ]
+    },
+    {
+      "Route": "images/cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.hinj8fpvdp.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:44:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hinj8fpvdp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:44:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yfF9l3kOPrkPFW8eG9X2AAI8upc8pAWJvT76+nkQCSQ="
         }
       ]
     },
@@ -2433,6 +7173,252 @@
       ]
     },
     {
+      "Route": "images/da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.g4r0i9skrr.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:49:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4r0i9skrr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 10:49:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKAY2jW8yEvWAfJwMrsz3eXowpltvZp70G3MhT4Jn3Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.yv3y16r1os.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv3y16r1os"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LrEOtTjA118zOz8ZNXEE9NZK+hj02SFlr1SMVLfvsXI="
+        }
+      ]
+    },
+    {
+      "Route": "images/e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:48:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY="
+        }
+      ]
+    },
+    {
+      "Route": "images/e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.ypqyv9uug9.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:48:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypqyv9uug9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OqGpsYq9rWbk1PmhvdyzgmQDNyvm+SPvWk4/TXvPaWY="
+        }
+      ]
+    },
+    {
       "Route": "images/ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png",
       "Selectors": [],
@@ -2515,6 +7501,88 @@
       ]
     },
     {
+      "Route": "images/ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.4kex7exlsc.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kex7exlsc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4="
+        }
+      ]
+    },
+    {
+      "Route": "images/ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9HYI7O4S5CBVwzNTBRiIrZCxsitsOMOL4XW9O0tpQJ4="
+        }
+      ]
+    },
+    {
       "Route": "images/eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png",
       "Selectors": [],
@@ -2593,6 +7661,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-/DmAfhNkU0NIZfA5Akq4lyo9g/aquSODUEuxmkqqjE0="
+        }
+      ]
+    },
+    {
+      "Route": "images/f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.0zyjagyioc.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:48:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0zyjagyioc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30="
+        }
+      ]
+    },
+    {
+      "Route": "images/f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 11:48:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zGEBNGDvwNpxMM5OyBxOrGE76jGOuduRinoBezyJH30="
         }
       ]
     },

@@ -13,12 +13,160 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "PackagePath": "staticwebassets\\images\\0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001395_sac-20w-usb-c-power-adapter_240.png",
+      "PackagePath": "staticwebassets\\images\\0001395_sac-20w-usb-c-power-adapter_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0001421_magic-mouse-2_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0001421_magic-mouse-2_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "PackagePath": "staticwebassets\\images\\0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0012020_airpods-pro-2021_240.webp",
+      "PackagePath": "staticwebassets\\images\\0012020_airpods-pro-2021_240.webp"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0022022_airpods-pro-2-usb-c-2023_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0024430_iphone-13-128gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0024430_iphone-13-128gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0026434_apple-pencil-pro_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0026434_apple-pencil-pro_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029155_iphone-16-pro-max-256gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0029155_iphone-16-pro-max-256gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029778_airpods-4_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0029778_airpods-4_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0029786_airpods-max-cong-usb-c-2024_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "PackagePath": "staticwebassets\\images\\0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030444_iphone-16-pro-128gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0030444_iphone-16-pro-128gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0030771_iphone-16-128gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0030771_iphone-16-128gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0034122_macbook-air-m3-13-inch-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png",
+      "PackagePath": "staticwebassets\\images\\04ebc161-47c7-4c3b-9023-3eaacf4997e5_0024430_iphone-13-128gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\053b86e3-6e6b-40c5-86a0-8997be379d29_0034293_ban-phim-smart-keyboard-folio-cho-ipad-pro-11-inch-mxnk2-dung-cho-ipad-pro-the-he-thu-1234_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png",
+      "PackagePath": "staticwebassets\\images\\0ab6925d-c0b4-46fa-91c8-09d57c15c4ea_0029155_iphone-16-pro-max-256gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\0c650099-ee70-40b6-ad70-39128e3268cb_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
+      "PackagePath": "staticwebassets\\images\\27ef1a79-9d9b-4462-94d6-3c9836f05cca_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png",
       "PackagePath": "staticwebassets\\images\\38d9e1d9-24d4-45ae-b054-879172ac1afb_0028841_iphone-15-pro-max-1tb_240.png"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\3cc91a6f-c209-477b-8e19-1321102eec8a_0025624_ipad-pro-m4-11-inch-wi-fi_240.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg",
       "PackagePath": "staticwebassets\\images\\3dbb94c0-bdf2-48d2-902e-ab9cba16cc36_0034121_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png",
+      "PackagePath": "staticwebassets\\images\\3e2981f5-b724-4265-a021-18a3694e4a38_0001395_sac-20w-usb-c-power-adapter_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\4c74b247-0121-4690-97c8-ef2291708695_0026434_apple-pencil-pro_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\5039e1c4-3a90-42a5-8eda-2b314c548d38_0029160_apple-watch-series-10-nhom-gps-42mm-sport-band_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp",
+      "PackagePath": "staticwebassets\\images\\5236b128-c629-4d26-87f3-17ecd9eb691d_0012020_airpods-pro-2021_240.webp"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png",
+      "PackagePath": "staticwebassets\\images\\5b464a14-8077-499c-9642-e00fd45fa22e_0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\742bdc7f-135a-445f-a7e8-d3fa5e4ef9d3_0029786_airpods-max-cong-usb-c-2024_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png",
+      "PackagePath": "staticwebassets\\images\\76b3b260-60d8-48d6-aa9e-f2940c355046_0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\87a88fea-be8f-4dae-8385-bf163ff2ce78_0028064_iphone-15-pro-max-256gb_240.png",
@@ -33,20 +181,72 @@
       "PackagePath": "staticwebassets\\images\\8e819695-d094-4f4b-9e97-52687a28710f_0019776_green_550.jpeg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\9790aba4-c9a9-4a83-a859-986ba9cf4140_0001421_magic-mouse-2_240.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg",
       "PackagePath": "staticwebassets\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
+      "PackagePath": "staticwebassets\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\a8adc48c-b530-4ca7-ba83-be392698593a_0032869_apple-watch-se-gps-cellular-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\b357d0eb-4f0e-4a93-87a5-02b836d58805_0025630_ipad-air-6-m2-13-inch-wi-fi_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner2.png",
+      "PackagePath": "staticwebassets\\images\\banner2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
+      "PackagePath": "staticwebassets\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png",
       "PackagePath": "staticwebassets\\images\\d556af1c-23c0-4a24-b171-0aa5c029ee14_0008502_macbook-air-m2-13-inch-8gb-ram-256gb-ssd_240.png"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png",
+      "PackagePath": "staticwebassets\\images\\da495925-0e15-4720-b197-ba3487a5ccf8_0024430_iphone-13-128gb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\e92c327f-ac08-4d80-accc-12a9728e2f28_0029778_airpods-4_240.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png",
       "PackagePath": "staticwebassets\\images\\ecad5900-0775-4bb1-b589-9f7e7ef0b682_0028841_iphone-15-pro-max-1tb_240.png"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png",
+      "PackagePath": "staticwebassets\\images\\ede7303b-c0a8-4a5f-b933-97d3ee13fdff_0030444_iphone-16-pro-128gb_240.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png",
       "PackagePath": "staticwebassets\\images\\eea63f66-80c9-41e5-98bc-dc302d647e83_0028841_iphone-15-pro-max-1tb_240.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg",
+      "PackagePath": "staticwebassets\\images\\f0569e09-e1f4-43d2-9333-ce0732e358d9_0022022_airpods-pro-2-usb-c-2023_240.jpeg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\f1c055d1-eb65-4cf0-b83a-93cf41f1df14_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",

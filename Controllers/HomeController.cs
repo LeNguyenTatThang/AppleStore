@@ -17,23 +17,17 @@ namespace AppleStore.Controllers
 
         public IActionResult Index(int? categoryId)
         {
-            var categories = _context.Category.ToList();
-
-            var products = categoryId.HasValue
-                           ? _context.Product
-                               .Where(p => p.CategoryId == categoryId.Value)
-                               .Include(p => p.Category)
-                               .ToList() 
-                           : _context.Product
-                               .Include(p => p.Category)
-                               .Take(6) 
-                               .ToList();
+            var categories = _context.Category
+                             .Where(c => c.Id != 21 && c.Id != 22 && c.Id != 23)
+                             .ToList();
+            var products = _context.Product.Include(p => p.Category).ToList();
 
             ViewBag.Categories = categories;
-            ViewBag.SelectedCategoryId = categoryId; 
+            ViewBag.Products = products;
 
             return View(products);
         }
+
         public IActionResult GetProductsByCategory(int categoryId)
         {
             var products = _context.Product
@@ -91,6 +85,15 @@ namespace AppleStore.Controllers
 
             return View(products.ToList());
         }
+        public IActionResult GetProductsByCategory(int categoryId, int limit = 4)
+        {
+            var products = _context.Product
+                .Where(p => p.CategoryId == categoryId)
+                .Take(limit)
+                .Include(p => p.Category)
+                .ToList();
 
+            return Json(products);
+        }
     }
 }

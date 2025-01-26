@@ -3,93 +3,156 @@
 }
 
 @model IEnumerable<AppleStore.Models.Product>
+@{
+    var categories = ViewBag.Categories as List<AppleStore.Models.Category>; // Danh sách thể loại
+    var products = ViewBag.Products as List<AppleStore.Models.Product>; // Danh sách sản phẩm
+}
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-<div class="bg-light">
-    <!-- Lọc sản phẩm -->
-    <div class="me-5 py-3 d-flex justify-content-end">
-        <div class="dropdown">
-            <button class="btn btn-light dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fas fa-filter"></i> Lọc
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="filterDropdown">
-                <li>
-                    <a class="dropdown-item" asp-action="Index" asp-controller="Home">
-                        Mặc định
-                    </a>
-                </li>
-                <!-- Sort by Name Ascending -->
-                <li>
-                    <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "name_asc" })">
-                        <i class="fas fa-sort-alpha-down"></i> A → Z
-                    </a>
-                </li>
-                <!-- Sort by Name Descending -->
-                <li>
-                    <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "name_desc" })">
-                        <i class="fas fa-sort-alpha-up"></i> Z → A
-                    </a>
-                </li>
-                <!-- Sort by Price Ascending -->
-                <li>
-                    <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "price_asc" })">
-                        <i class="fas fa-sort-amount-up"></i> Giá tăng dần
-                    </a>
-                </li>
-                <!-- Sort by Price Descending -->
-                <li>
-                    <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "price_desc" })">
-                        <i class="fas fa-sort-amount-down"></i> Giá giảm dần
-                    </a>
-                </li>
-            </ul>
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../../images/banner1.png" alt="Los Angeles" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="../../images/banner2.png" alt="Chicago" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="../../images/banner3.png" alt="New York" class="d-block" style="width:100%">
         </div>
     </div>
 
-    <div class="d-flex">
-
-        <div class="category-list me-4 shadow-lg bg-body-tertiary rounded">
-            <ul class="list-unstyled d-flex flex-column gap-3 align-items-center">
-                <li>
-                    <a href="@Url.Action("Index")" class="text-dark text-decoration-none">
-                        <button type="button" class="btn btn-outline-secondary btn-block" id="allCategory">Tất cả</button>
-                    </a>
-                </li>
-                @foreach (var category in ViewBag.Categories)
-                {
-                    <li>
-                        <a href="@Url.Action("Index", "Home", new { categoryId = category.Id })" class="text-dark text-decoration-none">
-                            <button type="button" class="btn btn-outline-secondary btn-block" id="category-@category.Id" data-bs-toggle="pill" data-bs-target="#category-@category.Id" role="tab" aria-controls="category-@category.Id" aria-selected="false">
-                                @category.Name
-                            </button>
-                        </a>
-                    </li>
-                }
-            </ul>
-        </div>
-
-        <div class="product-grid w-100">
-            <div class="row gx-4 gy-4">
-                @foreach (var item in Model)
-                {
-                    <div class="col-md-4">
-                        <div class="card product-card shadow-sm border-0" style="cursor:pointer;" data-title="@item.Name" data-description="@item.Information">
-                            <img src="/images/@item.Img" class="card-img-top" alt="@item.Name">
-                            <div class="card-body">
-                                <h6 class="card-title">@item.Name</h6>
-                                <p class="card-text"><small class="text-muted">Danh mục: @item.Category.Name</small></p>
-                                <p class="card-text">Giá: @item.Price.ToString("#,0") VND</p>
-                                <div class="d-flex justify-content-between">
-                                    <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-productName="@item.Name" asp-route-price="@item.Price" asp-route-ImageUrl="@item.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
-                                    <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="btn btn-outline-primary btn-sm">Chi tiết</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                }
-            </div>
-        </div>
-    </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
 </div>
+<div class="container my-5">
+    @foreach (var category in categories)
+        {
+            <h2 class="text-center mb-4">@category.Name</h2>
+       
+    <div class="row g-4">
+        <!-- Product Card -->
+            @foreach (var product in products.Where(p => p.CategoryId == category.Id).Take(4))
+            {
+               
+                <div class="col-md-3 fade-in" data-aos="fade-up" data-aos-delay="@((product.Id % 4) * 200)">
+                    <div class="product-card position-relative p-3" style="background-color: #eeecec; border-radius: 15px 15px 15px 15px;">
+                        <a href="@Url.Action("Detail", "Product", new { id = product.Id })" class="text-decoration-none">
+                        <img src="../../images/@product.Img" alt="Product 1" class="img-fluid" style="width: 280px; height: 250px; background-color: #eeecec" />
+                        <p class="pt-3 product-name" style="font-size:18px; font-weight: 700; line-height: 27px;color: #1D1D1F;">@product.Name</p>
+                        <p class=" text-center">
+                            <span class="product-price text-primary">@product.Price.ToString("#,0") VNĐ</span>
+                        </p>
+						</a>
+                    </div>
+                </div>
+                
+        }
+    </div>
+    <div class="text-center my-4">
+            <button class="btn btn-outline-primary">Xem tất cả @category.Name</button>
+    </div>
+    }
+</div>
+@* <div class="bg-light"> *@
+@*     <!-- Lọc sản phẩm --> *@
+@*     <div class="me-5 py-3 d-flex justify-content-end"> *@
+@*         <div class="dropdown"> *@
+@*             <button class="btn btn-light dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown" aria-expanded="false"> *@
+@*                 <i class="fas fa-filter"></i> Lọc *@
+@*             </button> *@
+@*             <ul class="dropdown-menu" aria-labelledby="filterDropdown"> *@
+@*                 <li> *@
+@*                     <a class="dropdown-item" asp-action="Index" asp-controller="Home"> *@
+@*                         Mặc định *@
+@*                     </a> *@
+@*                 </li> *@
+@*                 <!-- Sort by Name Ascending --> *@
+@*                 <li> *@
+@*                     <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "name_asc" })"> *@
+@*                         <i class="fas fa-sort-alpha-down"></i> A → Z *@
+@*                     </a> *@
+@*                 </li> *@
+@*                 <!-- Sort by Name Descending --> *@
+@*                 <li> *@
+@*                     <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "name_desc" })"> *@
+@*                         <i class="fas fa-sort-alpha-up"></i> Z → A *@
+@*                     </a> *@
+@*                 </li> *@
+@*                 <!-- Sort by Price Ascending --> *@
+@*                 <li> *@
+@*                     <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "price_asc" })"> *@
+@*                         <i class="fas fa-sort-amount-up"></i> Giá tăng dần *@
+@*                     </a> *@
+@*                 </li> *@
+@*                 <!-- Sort by Price Descending --> *@
+@*                 <li> *@
+@*                     <a class="dropdown-item" href="@Url.Action("Filter", new { sortOrder = "price_desc" })"> *@
+@*                         <i class="fas fa-sort-amount-down"></i> Giá giảm dần *@
+@*                     </a> *@
+@*                 </li> *@
+@*             </ul> *@
+@*         </div> *@
+@*     </div> *@
+
+@*     <div class="d-flex"> *@
+
+@*         <div class="category-list me-4 shadow-lg bg-body-tertiary rounded"> *@
+@*             <ul class="list-unstyled d-flex flex-column gap-3 align-items-center"> *@
+@*                 <li> *@
+@*                     <a href="@Url.Action("Index")" class="text-dark text-decoration-none"> *@
+@*                         <button type="button" class="btn btn-outline-secondary btn-block" id="allCategory">Tất cả</button> *@
+@*                     </a> *@
+@*                 </li> *@
+@*                 @foreach (var category in ViewBag.Categories) *@
+@*                 { *@
+@*                     <li> *@
+@*                         <a href="@Url.Action("Index", "Home", new { categoryId = category.Id })" class="text-dark text-decoration-none"> *@
+@*                             <button type="button" class="btn btn-outline-secondary btn-block" id="category-@category.Id" data-bs-toggle="pill" data-bs-target="#category-@category.Id" role="tab" aria-controls="category-@category.Id" aria-selected="false"> *@
+@*                                 @category.Name *@
+@*                             </button> *@
+@*                         </a> *@
+@*                     </li> *@
+@*                 } *@
+@*             </ul> *@
+@*         </div> *@
+
+@*         <div class="product-grid w-100"> *@
+@*             <div class="row gx-4 gy-4"> *@
+@*                 @foreach (var item in Model) *@
+@*                 { *@
+@*                     <div class="col-md-4"> *@
+@*                         <div class="card product-card shadow-sm border-0" style="cursor:pointer;" data-title="@item.Name" data-description="@item.Information"> *@
+@*                             <img src="/images/@item.Img" class="card-img-top" alt="@item.Name"> *@
+@*                             <div class="card-body"> *@
+@*                                 <h6 class="card-title">@item.Name</h6> *@
+@*                                 <p class="card-text"><small class="text-muted">Danh mục: @item.Category.Name</small></p> *@
+@*                                 <p class="card-text">Giá: @item.Price.ToString("#,0") VND</p> *@
+@*                                 <div class="d-flex justify-content-between"> *@
+@*                                     <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-productName="@item.Name" asp-route-price="@item.Price" asp-route-ImageUrl="@item.Img" class="btn btn-primary">Thêm vào giỏ hàng</a> *@
+@*                                     <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="btn btn-outline-primary btn-sm">Chi tiết</a> *@
+@*                                 </div> *@
+@*                             </div> *@
+@*                         </div> *@
+@*                     </div> *@
+@*                 } *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
 <style>
     .bg-light {
         background: linear-gradient(to right, #ffffff, #f8f9fa);
