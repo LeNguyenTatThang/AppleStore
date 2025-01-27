@@ -1,72 +1,575 @@
 ﻿@{
     ViewData["Title"] = "Dashboard";
 }
-<div class="container">
-<h3>Dashboard</h3>
 
-<!-- Biểu đồ 1 -->
-<canvas id="chart1" width="400" height="200"></canvas>
+<div class="row">
+    <div class="col">
+        <div class="h-100">
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                <!-- card -->
+                    <div class="card card-animate">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 overflow-hidden">
+                                    <p class="text-uppercase fw-medium text-muted text-truncate mb-0"> Tổng thu nhập</p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <h5 class="text-success fs-14 mb-0">
+                                    <i class="ri-arrow-right-up-line fs-13 align-middle"></i> +16.24 %
+                                </h5>
+                            </div>
+                        </div>
+                            <div class="d-flex align-items-end justify-content-between mt-4">
+                            <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4"> 559.250.000 VNĐ </h4>
+                                    <a href="" class="text-decoration-underline">Xem thu nhập</a>
+                            </div>
+                            <div class="avatar-sm flex-shrink-0">
+                                <span class="avatar-title bg-soft-success rounded fs-3">
+                                    <i class="bx bx-dollar-circle text-success"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div><!-- end card body -->
+                </div><!-- end card -->
+            </div><!-- end col -->
 
-<!-- Biểu đồ 2 -->
-<canvas id="chart2" width="400" height="200"></canvas>
+            <div class="col-xl-3 col-md-6">
+                <!-- card -->
+                <div class="card card-animate">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-grow-1 overflow-hidden">
+                                <p class="text-uppercase fw-medium text-muted text-truncate mb-0">Đơn hàng</p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <h5 class="text-danger fs-14 mb-0">
+                                    <i class="ri-arrow-right-down-line fs-13 align-middle"></i> -3.57 %
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between mt-4">
+                            <div>
+                                <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value" data-target="16"></span></h4>
+                                <a href="" class="text-decoration-underline">Xem đơn đặt hàng</a>
+                            </div>
+                            <div class="avatar-sm flex-shrink-0">
+                                <span class="avatar-title bg-soft-info rounded fs-3">
+                                    <i class="bx bx-shopping-bag text-info"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div><!-- end card body -->
+                </div><!-- end card -->
+            </div><!-- end col -->
+
+            <div class="col-xl-3 col-md-6">
+                <!-- card -->
+                <div class="card card-animate">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-grow-1 overflow-hidden">
+                                <p class="text-uppercase fw-medium text-muted text-truncate mb-0">Khách hàng</p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <h5 class="text-success fs-14 mb-0">
+                                    <i class="ri-arrow-right-up-line fs-13 align-middle"></i> +29.08 %
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between mt-4">
+                            <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value">18</span> </h4>
+                                <a href="" class="text-decoration-underline">Xem chi tiết</a>
+                            </div>
+                            <div class="avatar-sm flex-shrink-0">
+                                <span class="avatar-title bg-soft-warning rounded fs-3">
+                                    <i class="bx bx-user-circle text-warning"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div><!-- end card body -->
+                </div><!-- end card -->
+            </div><!-- end col -->
+
+            <div class="col-xl-3 col-md-6">
+                <!-- card -->
+                <div class="card card-animate">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-grow-1 overflow-hidden">
+                                <p class="text-uppercase fw-medium text-muted text-truncate mb-0"> Cân bằng</p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <h5 class="text-muted fs-14 mb-0">
+                                    +0.00 %
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between mt-4">
+                            <div>
+                                    <h4 class="fs-22 fw-semibold ff-secondary mb-4"$<span class="counter-value">165.890</span>VNĐ </h4>
+                                <a href="" class="text-decoration-underline">Rút tiền</a>
+                            </div>
+                            <div class="avatar-sm flex-shrink-0">
+                                <span class="avatar-title bg-soft-primary rounded fs-3">
+                                    <i class="bx bx-wallet text-primary"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div><!-- end card body -->
+                </div><!-- end card -->
+            </div><!-- end col -->
+        </div> <!-- end row-->
+
+            <div class="row">
+                <div class="col-xl-6">
+					<div class="card"> <canvas id="chart1" height="200"></canvas></div>
+                </div>
+
+                <div class="col-xl-6">
+					<div class="card"><canvas id="chart2" height="200"></canvas></div>
+                </div> 
+                @section Scripts {
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                    <script>
+                        // Tạo Biểu đồ 1
+                        var ctx1 = document.getElementById('chart1').getContext('2d');
+                        var chart1 = new Chart(ctx1, {
+                            type: 'line',
+                            data: {
+                                labels: [], // Sẽ được cập nhật từ controller
+                                datasets: [{
+                                    label: 'Dữ liệu bán hàng',
+                                    data: [], // Sẽ được cập nhật từ controller
+                                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                    borderColor: 'rgba(255, 99, 132, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: true
+                            }
+                        });
+
+                        // Lấy dữ liệu cho Biểu đồ 1 từ server
+                        fetch('@Url.Action("GetChartData", "Dashboard", new { area = "Admin" })')
+                            .then(response => response.json())
+                            .then(data => {
+                                chart1.data.labels = data.labels;
+                                chart1.data.datasets[0].data = data.datasets[0].data;
+                                chart1.update();
+                            });
+
+                        // Tạo Biểu đồ 2
+                        var ctx2 = document.getElementById('chart2').getContext('2d');
+                        var chart2 = new Chart(ctx2, {
+                            type: 'bar',
+                            data: {
+                                labels: [], // Sẽ được cập nhật từ controller
+                                datasets: [{
+                                    label: 'Báo cáo hằng quý',
+                                    data: [], // Sẽ được cập nhật từ controller
+                                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                    borderColor: 'rgba(54, 162, 235, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: true
+                            }
+                        });
+
+                        // Lấy dữ liệu cho Biểu đồ 2 từ server
+                        fetch('@Url.Action("GetAnotherChartData", "Dashboard", new { area = "Admin" })')
+                            .then(response => response.json())
+                            .then(data => {
+                                chart2.data.labels = data.labels;
+                                chart2.data.datasets[0].data = data.datasets[0].data;
+                                chart2.update();
+                            });
+                    </script>
+                }
+            </div>
+
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card">
+                    <div class="card-header align-items-center d-flex">
+                        <h4 class="card-title mb-0 flex-grow-1">Sản phẩm bán chạy nhất</h4>
+                    </div><!-- end card header -->
+
+                    <div class="card-body">
+                        <div class="table-responsive table-card">
+                            <table class="table table-hover table-centered align-middle table-nowrap mb-0">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar-sm bg-light rounded p-1 me-2">
+                                                        <img src="../images/0029155_iphone-16-pro-max-256gb_240.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-14 my-1"><a href="apps-ecommerce-product-details.html" class="text-reset">Iphone 15 Pro Max</a></h5>
+                                                    <span class="text-muted">24 Apr 2024</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">30$</h5>
+                                            <span class="text-muted">Giá</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">62</h5>
+                                            <span class="text-muted">Đơn</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">32%</h5>
+                                            <span class="text-muted">Chiếm</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">4567$</h5>
+                                            <span class="text-muted">Tổng</span>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar-sm bg-light rounded p-1 me-2">
+                                                        <img src="../images/0029155_iphone-16-pro-max-256gb_240.png" alt="" class="img-fluid d-block" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="fs-14 my-1"><a href="apps-ecommerce-product-details.html" class="text-reset">Iphone 12 Pro Max</a></h5>
+                                                        <span class="text-muted">24 Apr 2024</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">30$</h5>
+                                                <span class="text-muted">Giá</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">62</h5>
+                                                <span class="text-muted">Đơn</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">32%</h5>
+                                                <span class="text-muted">Chiếm</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">4567$</h5>
+                                                <span class="text-muted">Tổng</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar-sm bg-light rounded p-1 me-2">
+                                                        <img src="../images/0029155_iphone-16-pro-max-256gb_240.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-14 my-1"><a href="apps-ecommerce-product-details.html" class="text-reset">Iphone 13 Pro Max</a></h5>
+                                                    <span class="text-muted">24 Apr 2024</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">30$</h5>
+                                            <span class="text-muted">Giá</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">62</h5>
+                                            <span class="text-muted">Đơn</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">32%</h5>
+                                            <span class="text-muted">Chiếm</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">4567$</h5>
+                                            <span class="text-muted">Tổng</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="avatar-sm bg-light rounded p-1 me-2">
+                                                        <img src="../images/0029155_iphone-16-pro-max-256gb_240.png" alt="" class="img-fluid d-block" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-14 my-1"><a href="apps-ecommerce-product-details.html" class="text-reset">Iphone 16 Pro Max</a></h5>
+                                                    <span class="text-muted">24 Apr 2024</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">30$</h5>
+                                            <span class="text-muted">Giá</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">62</h5>
+                                            <span class="text-muted">Đơn</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">32%</h5>
+                                            <span class="text-muted">Chiếm</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 my-1 fw-normal">4567$</h5>
+                                            <span class="text-muted">Tổng</span>
+                                        </td>
+                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="avatar-sm bg-light rounded p-1 me-2">
+                                                        <img src="../images/0029155_iphone-16-pro-max-256gb_240.png" alt="" class="img-fluid d-block" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="fs-14 my-1"><a href="apps-ecommerce-product-details.html" class="text-reset">Iphone 14 Pro Max</a></h5>
+                                                        <span class="text-muted">24 Apr 2024</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">30$</h5>
+                                                <span class="text-muted">Giá</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">62</h5>
+                                                <span class="text-muted">Đơn</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">32%</h5>
+                                                <span class="text-muted">Chiếm</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 my-1 fw-normal">4567$</h5>
+                                                <span class="text-muted">Tổng</span>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="align-items-center mt-4 pt-2 justify-content-between row text-center text-sm-start">
+                            <div class="col-sm">
+                                <div class="text-muted">
+                                    Showing <span class="fw-semibold">5</span> of <span class="fw-semibold">25</span> Results
+                                </div>
+                            </div>
+                            <div class="col-sm-auto  mt-3 mt-sm-0">
+                                <ul class="pagination pagination-separated pagination-sm mb-0 justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a href="#" class="page-link">←</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link">1</a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link">→</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6">
+                <div class="card card-height-100">
+                    <div class="card-header align-items-center d-flex">
+                        <h4 class="card-title mb-0 flex-grow-1">Người bán hàng đầu</h4>
+                    </div><!-- end card header -->
+
+                    <div class="card-body">
+                        <div class="table-responsive table-card">
+                            <table class="table table-centered table-hover align-middle table-nowrap mb-0">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 me-2">
+                                                        <img src="../images/users/avatar-1.jpg" alt="" class="avatar-sm p-2" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-14 my-1 fw-medium">
+                                                        <a href="apps-ecommerce-seller-details.html" class="text-reset">Lê Thị A</a>
+                                                    </h5>
+                                                        <span class="text-muted">salesman</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                                <span class="text-muted">Best salesman</span>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0">54</p>
+                                            <span class="text-muted">Đơn</span>
+                                        </td>
+                                        <td>
+                                            <span class="text-muted">$541200</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 mb-0">32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i></h5>
+                                        </td>
+                                    </tr><!-- end -->
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0 me-2">
+                                                        <img src="../images/users/avatar-1.jpg" alt="" class="avatar-sm p-2" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="fs-14 my-1 fw-medium">
+                                                            <a href="apps-ecommerce-seller-details.html" class="text-reset">Lê Thị A</a>
+                                                        </h5>
+                                                        <span class="text-muted">salesman</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="text-muted">Best salesman</span>
+                                            </td>
+                                            <td>
+                                                <p class="mb-0">54</p>
+                                                <span class="text-muted">Đơn</span>
+                                            </td>
+                                            <td>
+                                                <span class="text-muted">$541200</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 mb-0">32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i></h5>
+                                            </td>
+                                        </tr><!-- end -->
+                                        <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 me-2">
+                                                        <img src="../images/users/avatar-1.jpg" alt="" class="avatar-sm p-2" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-14 my-1 fw-medium">
+                                                        <a href="apps-ecommerce-seller-details.html" class="text-reset">Lê Thị A</a>
+                                                    </h5>
+                                                        <span class="text-muted">salesman</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                                <span class="text-muted">Best salesman</span>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0">54</p>
+                                            <span class="text-muted">Đơn</span>
+                                        </td>
+                                        <td>
+                                            <span class="text-muted">$541200</span>
+                                        </td>
+                                        <td>
+                                            <h5 class="fs-14 mb-0">32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i></h5>
+                                        </td>
+                                    </tr><!-- end -->
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0 me-2">
+                                                        <img src="../images/users/avatar-1.jpg" alt="" class="avatar-sm p-2" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="fs-14 my-1 fw-medium">
+                                                            <a href="apps-ecommerce-seller-details.html" class="text-reset">Lê Thị A</a>
+                                                        </h5>
+                                                        <span class="text-muted">salesman</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="text-muted">Best salesman</span>
+                                            </td>
+                                            <td>
+                                                <p class="mb-0">54</p>
+                                                <span class="text-muted">Đơn</span>
+                                            </td>
+                                            <td>
+                                                <span class="text-muted">$541200</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 mb-0">32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i></h5>
+                                            </td>
+                                        </tr><!-- end -->
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="flex-shrink-0 me-2">
+                                                        <img src="../images/users/avatar-1.jpg" alt="" class="avatar-sm p-2" />
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="fs-14 my-1 fw-medium">
+                                                            <a href="apps-ecommerce-seller-details.html" class="text-reset">Lê Thị A</a>
+                                                        </h5>
+                                                        <span class="text-muted">salesman</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="text-muted">Best salesman</span>
+                                            </td>
+                                            <td>
+                                                <p class="mb-0">54</p>
+                                                <span class="text-muted">Đơn</span>
+                                            </td>
+                                            <td>
+                                                <span class="text-muted">$541200</span>
+                                            </td>
+                                            <td>
+                                                <h5 class="fs-14 mb-0">32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i></h5>
+                                            </td>
+                                        </tr><!-- end -->
+                                </tbody>
+                            </table><!-- end table -->
+                        </div>
+
+                        <div class="align-items-center mt-4 pt-2 justify-content-between row text-center text-sm-start">
+                            <div class="col-sm">
+                                <div class="text-muted">
+                                    Showing <span class="fw-semibold">5</span> of <span class="fw-semibold">25</span> Results
+                                </div>
+                            </div>
+                            <div class="col-sm-auto  mt-3 mt-sm-0">
+                                <ul class="pagination pagination-separated pagination-sm mb-0 justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a href="#" class="page-link">←</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link">1</a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link">→</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div> <!-- .card-body-->
+                </div> <!-- .card-->
+            </div> <!-- .col-->
+        </div> 
+    </div>
+    </div>
 </div>
-@section Scripts {
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-        // Tạo Biểu đồ 1
-        var ctx1 = document.getElementById('chart1').getContext('2d');
-        var chart1 = new Chart(ctx1, {
-            type: 'line',
-            data: {
-                labels: [], // Sẽ được cập nhật từ controller
-                datasets: [{
-                    label: 'Sales Data',
-                    data: [], // Sẽ được cập nhật từ controller
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                responsive: true
-            }
-        });
-
-        // Lấy dữ liệu cho Biểu đồ 1 từ server
-        fetch('@Url.Action("GetChartData", "Dashboard", new { area = "Admin" })')
-            .then(response => response.json())
-            .then(data => {
-                chart1.data.labels = data.labels;
-                chart1.data.datasets[0].data = data.datasets[0].data;
-                chart1.update();
-            });
-
-        // Tạo Biểu đồ 2
-        var ctx2 = document.getElementById('chart2').getContext('2d');
-        var chart2 = new Chart(ctx2, {
-            type: 'bar',
-            data: {
-                labels: [], // Sẽ được cập nhật từ controller
-                datasets: [{
-                    label: 'Revenue Data',
-                    data: [], // Sẽ được cập nhật từ controller
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgba(54, 162, 235, 1)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                responsive: true
-            }
-        });
-
-        // Lấy dữ liệu cho Biểu đồ 2 từ server
-        fetch('@Url.Action("GetAnotherChartData", "Dashboard", new { area = "Admin" })')
-            .then(response => response.json())
-            .then(data => {
-                chart2.data.labels = data.labels;
-                chart2.data.datasets[0].data = data.datasets[0].data;
-                chart2.update();
-            });
-    </script>
-}
+               

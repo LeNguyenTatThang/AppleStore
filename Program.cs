@@ -62,8 +62,8 @@ app.MapControllerRoute(
 );
 
 app.MapControllerRoute(
-    name: "Order",
-    pattern: "{controller=Order}/{action=Index}/{OrderId?}"
+    name: "areas",
+    pattern: "{area:exists}/{controller=Order}/{action=Index}/{OrderId?}"
 );
 
 app.MapControllerRoute(

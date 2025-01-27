@@ -4,16 +4,16 @@
     ViewData["Title"] = "Quản lý thể loại";
 }
 <div class="container">
-<h1>Danh sách thể loại</h1>
+<h1>Danh mục</h1>
 
 <div class="text-end">
-    <a href="@Url.Action("Create", "Category")" class="btn btn-success">Thêm thể loại mới</a>
+    <a href="@Url.Action("Create", "Category")" class="btn btn-success">Thêm danh mục mới</a>
 </div>
 
-<table class="table table-bordered mt-3">
-    <thead>
+    <table class="container-fluid table table-bordered table-striped table-responsive mt-3">
+        <thead class="table-dark">
         <tr>
-            <th>Tên thể loại</th>
+            <th>Tên danh mục</th>
             <th>Hành động</th>
         </tr>
     </thead>

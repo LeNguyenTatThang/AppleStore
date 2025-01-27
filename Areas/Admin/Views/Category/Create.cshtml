@@ -1,17 +1,17 @@
 ﻿@model AppleStore.Models.Category
 
 @{
-    ViewData["Title"] = "Thêm thể loại mới";
+    ViewData["Title"] = "Thêm dạm mục mới";
 }
 <div class="container">
-<h1>Thêm thể loại mới</h1>
+<h1>Thêm danh mục</h1>
 
 <form asp-action="Create" method="post">
     <div class="form-group">
-        <label for="Name">Tên thể loại</label>
+        <label for="Name">Tên danh mục</label>
         <input type="text" class="form-control" id="Name" asp-for="Name" required />
     </div>
 
-    <button type="submit" class="btn btn-primary mt-3">Thêm thể loại</button>
+    <button type="submit" class="btn btn-primary mt-3">Thêm danh mục</button>
 </form>
 </div>

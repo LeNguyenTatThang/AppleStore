@@ -21,7 +21,6 @@ namespace AppleStore.Areas.Admin.Controllers
             _webHostEnviroment = webHostEnvironment;
         }
 
-        // Hiển thị danh sách sản phẩm
         public async Task<IActionResult> Index()
         {
             var role = HttpContext.Session.GetString("UserRole");
@@ -37,18 +36,27 @@ namespace AppleStore.Areas.Admin.Controllers
         }
 
 
-
-        // Hiển thị form thêm sản phẩm
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             ViewBag.Category = new SelectList(_context.Category, "Id", "Name");
             return View();
         }
 
-        // Thêm sản phẩm mới
         [HttpPost]
         public async Task<IActionResult> Create(Product product)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             ViewBag.Category = new SelectList(_context.Category, "Id", "Name", product.CategoryId);
 
             
@@ -81,9 +89,14 @@ namespace AppleStore.Areas.Admin.Controllers
             TempData["success"] = "Thêm sản phẩm thành công";
             return RedirectToAction("Index");
         }
-        // Sửa sản phẩm
         public async Task<IActionResult> Edit(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var product = await _context.Product.FindAsync(id);
             if (product == null)
             {
@@ -94,11 +107,16 @@ namespace AppleStore.Areas.Admin.Controllers
             return View(product);
         }
 
-        // Cập nhật sản phẩm
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Product product)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var existedProduct = await _context.Product.FindAsync(product.Id);
 
             if (existedProduct == null)
@@ -140,9 +158,14 @@ namespace AppleStore.Areas.Admin.Controllers
             
         }
 
-        //Xóa sản phẩm
         public async Task<IActionResult> Delete(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var product = await _context.Product.FindAsync(id);
             if (product == null)
             {

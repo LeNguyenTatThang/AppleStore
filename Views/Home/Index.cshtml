@@ -1,23 +1,20 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
 }
 
 @model IEnumerable<AppleStore.Models.Product>
 @{
-    var categories = ViewBag.Categories as List<AppleStore.Models.Category>; // Danh sách thể loại
-    var products = ViewBag.Products as List<AppleStore.Models.Product>; // Danh sách sản phẩm
+    var categories = ViewBag.Categories as List<AppleStore.Models.Category>;
+    var products = ViewBag.Products as List<AppleStore.Models.Product>;
 }
-<!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <!-- Indicators/dots -->
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
     </div>
 
-    <!-- The slideshow/carousel -->
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="../../images/banner1.png" alt="Los Angeles" class="d-block" style="width:100%">
@@ -30,7 +27,6 @@
         </div>
     </div>
 
-    <!-- Left and right controls/icons -->
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
     </button>
@@ -44,7 +40,6 @@
             <h2 class="text-center mb-4">@category.Name</h2>
        
     <div class="row g-4">
-        <!-- Product Card -->
             @foreach (var product in products.Where(p => p.CategoryId == category.Id).Take(4))
             {
                
@@ -59,12 +54,16 @@
 						</a>
                     </div>
                 </div>
-                
         }
     </div>
-    <div class="text-center my-4">
-            <button class="btn btn-outline-primary">Xem tất cả @category.Name</button>
-    </div>
+        <div class="text-center my-4">
+            <a class="btn btn-outline-dark"
+                    asp-action="Index"
+                    asp-controller="Product"
+                    asp-route-categoryId="@category.Id">
+                Xem tất cả @category.Name
+            </a>
+        </div>
     }
 </div>
 @* <div class="bg-light"> *@

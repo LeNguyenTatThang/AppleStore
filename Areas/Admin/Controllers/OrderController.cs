@@ -16,11 +16,16 @@ namespace AppleStore.Areas.Admin.Controllers
             _dbContext = dbContext;
         }
 
-        // Hiển thị danh sách đơn hàng
         [HttpGet]
         [Route("Admin/Order/Detail")]
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var orders = _dbContext.Orders.ToList();
             return View(orders);
         }
@@ -29,18 +34,20 @@ namespace AppleStore.Areas.Admin.Controllers
         [Route("Admin/Order/Detail/{orderId?}")]
         public async Task<IActionResult> Detail(string orderId)
         {
-            // Kiểm tra xem orderId có được truyền vào không
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             if (string.IsNullOrEmpty(orderId))
             {
                 return BadRequest("Mã đơn hàng không hợp lệ.");
             }
 
-            // Debug: In orderId ra log
-            Console.WriteLine($"orderId received: {orderId}");
-
-            // Tìm đơn hàng và chi tiết đơn hàng
             var order = await _dbContext.Orders
-                .Include(o => o.OrderDetails) // Bao gồm thông tin OrderDetails
+                .Include(o => o.OrderDetails) 
                 .FirstOrDefaultAsync(o => o.OrderId == orderId);
 
             if (order == null)
@@ -48,15 +55,20 @@ namespace AppleStore.Areas.Admin.Controllers
                 return NotFound(new { message = $"Không tìm thấy đơn hàng với mã {orderId}." });
             }
 
-            // Trả về View với model là đơn hàng
             return View(order);
         }
 
 
-        // Cập nhật trạng thái đơn hàng
         [HttpPost]
+        [Route("Admin/Order/UpdateStatus")]
         public IActionResult UpdateStatus(int id, string status)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var order = _dbContext.Orders.Find(id);
             if (order == null)
             {

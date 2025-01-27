@@ -38,12 +38,6 @@ namespace AppleStore.Controllers
         public IActionResult Index()
 
         {
-            var username = HttpContext.Session.GetString("Username");
-            ViewBag.Username = username;
-            if(string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Login", "Account");
-            }
 
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
             if (cart == null)
@@ -56,13 +50,6 @@ namespace AppleStore.Controllers
 
         public IActionResult AddToCart(int productId, string productName, decimal price, string imageUrl)
         {
-            var username = HttpContext.Session.GetString("Username");
-            ViewBag.Username = username;
-            if (string.IsNullOrEmpty(username))
-            {
-                return RedirectToAction("Login", "Account");
-            }
-
             var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
             if (cart == null)
@@ -158,9 +145,12 @@ namespace AppleStore.Controllers
                 Total = item.Quantity * item.Price
             }).ToList();
 
-            // Lưu danh sách OrderDetail vào database
+            
             _dbContext.OrderDetails.AddRange(orderDetails);
             _dbContext.SaveChanges();
+
+            cart.Clear();
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
 
             return orderDetails;
         }
@@ -191,20 +181,16 @@ namespace AppleStore.Controllers
                     OrderDate = DateTime.Now
                 };
 
-                // Lưu vào database
                 _dbContext.Orders.Add(checkOrder);
                 await _dbContext.SaveChangesAsync();
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
-                // Kiểm tra giỏ hàng có dữ liệu hay không
                 if (cart == null || !cart.Any())
                 {
-                    // Trường hợp giỏ hàng trống
                     ViewBag.Message = "Giỏ hàng của bạn đang trống.";
                     return RedirectToAction("Index", "Home");
                 }
 
-                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
                 SaveOrderDetails(cart, checkOrder.OrderId);
                 ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
             }
@@ -223,25 +209,20 @@ namespace AppleStore.Controllers
                     OrderDate = DateTime.Now
                 };
 
-                // Lưu vào database
                 _dbContext.Orders.Add(checkOrder);
                 await _dbContext.SaveChangesAsync();
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
-                // Kiểm tra giỏ hàng có dữ liệu hay không
                 if (cart == null || !cart.Any())
                 {
-                    // Trường hợp giỏ hàng trống
                     ViewBag.Message = "Giỏ hàng của bạn đang trống.";
                     return RedirectToAction("Index", "Home");
                 }
 
-                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
                 SaveOrderDetails(cart, checkOrder.OrderId);
                 ViewBag.Message = "Thanh toán thất bại. Vui lòng thử lại hoặc liên hệ hỗ trợ.";
             }
 
-            // Trả dữ liệu ra view
             return View("ResultCallbackVnpay", response);
 
         }
@@ -250,7 +231,6 @@ namespace AppleStore.Controllers
         [HttpGet]
         public async Task<IActionResult> PaymentCallBack()
         {
-            // Gọi dịch vụ để xử lý callback từ Momo
             var response = await _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
             var requestQuery = HttpContext.Request.Query;
 
@@ -274,20 +254,16 @@ namespace AppleStore.Controllers
                     OrderDate = DateTime.Now
                 };
 
-                // Lưu vào database
                 _dbContext.Orders.Add(checkOrder);
                 await _dbContext.SaveChangesAsync();
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
-                // Kiểm tra giỏ hàng có dữ liệu hay không
                 if (cart == null || !cart.Any())
                 {
-                    // Trường hợp giỏ hàng trống
                     ViewBag.Message = "Giỏ hàng của bạn đang trống.";
                     return RedirectToAction("Index", "Home");
                 }
 
-                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
                 SaveOrderDetails(cart, checkOrder.OrderId);
                 ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
             }
@@ -305,20 +281,16 @@ namespace AppleStore.Controllers
                     OrderStatus = "Procesing",
                     OrderDate = DateTime.Now
                 };
-                // Lưu vào database
                 _dbContext.Orders.Add(checkOrder);
                 await _dbContext.SaveChangesAsync();
                 var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
 
-                // Kiểm tra giỏ hàng có dữ liệu hay không
                 if (cart == null || !cart.Any())
                 {
-                    // Trường hợp giỏ hàng trống
                     ViewBag.Message = "Giỏ hàng của bạn đang trống.";
                     return RedirectToAction("Index", "Home");
                 }
 
-                // Gọi hàm lưu OrderDetail sau khi order được lưu thành công
                 SaveOrderDetails(cart, checkOrder.OrderId);
                 ViewBag.Message = "Thanh toán thất bại. Vui lòng thử lại hoặc liên hệ hỗ trợ.";
             }

@@ -174,3 +174,5 @@ C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\Newtonsoft.Js
 C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\RestSharp.dll
 C:\Users\Admin\source\repos\AppleStore\AppleStore\obj\Debug\net8.0\AppleStore.sourcelink.json
 C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\PagedList.dll
+C:\Users\Admin\source\repos\AppleStore\AppleStore\bin\Debug\net8.0\PagedList.Mvc.dll

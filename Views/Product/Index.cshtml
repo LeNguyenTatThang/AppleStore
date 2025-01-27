@@ -4,20 +4,21 @@
     <h5 class="mb-4">Danh sách sản phẩm</h5>
 
     <!-- Danh sách sản phẩm -->
-    <div class="row gx-4 gy-4">
+    <div class="row g-4">
         @foreach (var item in Model.Products)
         {
-            <div class="col-md-4">
-                <div class="card shadow-sm border-0">
-                    <img src="/images/@item.Img" class="card-img-top" alt="@item.Name">
-                    <div class="card-body">
-                        <h6 class="card-title">@item.Name</h6>
-                        <p class="card-text">Giá: @item.Price.ToString("#,0")</p>
-                        <p class="card-text"><small class="text-muted">Danh mục: @item.Category.Name</small></p>
-                        <div class="d-flex justify-content-between">
-                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-productName="@item.Name" asp-route-price="@item.Price" asp-route-ImageUrl="@item.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
-                            <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="btn btn-outline-primary btn-sm">Chi tiết</a>
-                        </div>
+            <div class="col-md-3 fade-in" data-aos="fade-up" data-aos-delay="@((item.Id % 4) * 200)">
+                <div class="product-card position-relative p-3 card" style="background-color: #eeecec; border-radius: 15px 15px 15px 15px;">
+                    <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="text-decoration-none">
+                        <img src="../../images/@item.Img" alt="Product 1" class="img-fluid" style="width: 280px; height: 250px; background-color: #eeecec" />
+                        <p class="pt-3 product-name" style="font-size:18px; font-weight: 700; line-height: 27px;color: #1D1D1F;">@item.Name</p>
+                        <p class=" text-center">
+                            <span class="product-price text-primary">@item.Price.ToString("#,0") VNĐ</span>
+                        </p>
+                    </a>
+                    <div class="d-flex justify-content-between">
+                        <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-productName="@item.Name" asp-route-price="@item.Price" asp-route-ImageUrl="@item.Img" class="btn btn-dark">Thêm vào giỏ hàng</a>
+                        <a href="@Url.Action("Detail", "Product", new { id = item.Id })" class="btn btn-outline-dark btn-sm">Chi tiết</a>
                     </div>
                 </div>
             </div>

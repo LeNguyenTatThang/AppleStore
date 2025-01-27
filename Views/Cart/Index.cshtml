@@ -1,102 +1,102 @@
 ﻿@model List<CartItem>
 
-<form method="post" asp-action="Checkout" asp-controller="Payment">
+<form method="post" asp-action="Checkout" asp-controller="Payment" class="min-vh-100">
     <input type="hidden" name="OrderType" value="other" />
     <input type="hidden" name="OrderDescription" value="Thanh toán sản phẩm của AppleStore" />
     <input type="hidden" name="FullName" />
     <input type="hidden" name="OrderInformation" value="Thanh toán sản phẩm của AppleStore" />
     <input type="hidden" name="Amount" value="@Model.Sum(item => item.Price * item.Quantity)" />
-    <input type="hidden" name="PaymentMethod" id="PaymentMethod" />  <!-- Thêm trường này để chứa phương thức thanh toán -->
+    <input type="hidden" name="PaymentMethod" id="PaymentMethod" />
 
     <div class="container my-4">
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="text-left">
-                <a href="@Url.Action("Index", "Home")" class="btn btn-info">Tiếp tục mua hàng</a>
-            </div>
-            <div class="text-center flex-grow-1">
-                <h2>Giỏ hàng của bạn</h2>
-            </div>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-dark">Tiếp tục mua hàng</a>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h1 class="text-center flex-grow-1">Giỏ hàng của bạn</h1>
         </div>
 
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Hình ảnh</th>
-                    <th>Tên sản phẩm</th>
-                    <th>Đơn giá</th>
-                    <th>Số lượng</th>
-                    <th>Tổng cộng</th>
-                    <th>Hành động</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td><img src="/images/@item.ImageUrl" alt="@item.ProductName" width="80" /></td>
-                        <td>@item.ProductName</td>
-                        <td>@item.Price.ToString("#,0")</td>
-                        <td>
-                            <form></form>
-                            <form asp-action="UpdateQuantity" method="post" class="d-inline" >
-                                <input type="hidden" name="productId" value="@item.ProductId" />
-                                <button type="submit" class="btn btn-primary btn-sm" name="action" value="decrease">-</button>
-                                <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control d-inline" style="width: 70px;" disabled />
-                                <button type="submit" class="btn btn-primary btn-sm" name="action" value="increase">+</button>
-                            </form>
-                        </td>
-                        <td>@($"{(item.Price * item.Quantity):N0} ₫")</td>
-
-                        <td>
-                            <form asp-action="RemoveFromCart" method="post" class="d-inline">
-                                <input type="hidden" name="productId" value="@item.ProductId" />
-                                <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
-                            </form>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="4" class="text-end fw-bold">Tổng giá trị đơn hàng:</td>
-                    <td colspan="2" class="text-danger fw-bold">
-                        @Model.Sum(item => item.Price * item.Quantity).ToString("#,0") ₫
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
-
-        <!-- Thông tin giao hàng -->
-        <div class="pa-2">
-            <h2 class="text-center mb-4">Thông tin giao hàng</h2>
-            <div class="form-floating mb-3">
-                <input type="text" name="CustomerName" id="CustomerName" class="form-control" placeholder="Họ và tên" required>
-                <label for="floatingInput">Họ và tên</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="text" name="Address" id="Address" class="form-control" placeholder="Địa chỉ giao hàng" required>
-                <label for="floatingInput">Địa chỉ giao hàng</label>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="text" name="Phone" id="Phone" class="form-control" placeholder="Phone" required>
-                <label for="floatingInput">Số điện thoại</label>
+        <div class="row">
+            <!-- Thông tin đơn hàng (3/5) -->
+            <div class="col-md-7">
+                <h3>Thông tin đơn hàng</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>Đơn giá</th>
+                            <th>Số lượng</th>
+                            <th>Tổng cộng</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr><form></form></tr>
+                            <tr>
+                                <td><img src="/images/@item.ImageUrl" alt="@item.ProductName" width="50" /></td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Price.ToString("#,0")</td>
+                                <td>
+                                    <form asp-action="UpdateQuantity" method="post" class="d-inline">
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn-primary btn-sm" name="action" value="decrease">-</button>
+                                        <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control d-inline" style="width: 70px;" disabled />
+                                        <button type="submit" class="btn btn-primary btn-sm" name="action" value="increase">+</button>
+                                    </form>
+                                </td>
+                                <td>@($"{(item.Price * item.Quantity):N0} ₫")</td>
+                                <td>
+                                    <form asp-action="RemoveFromCart" method="post" class="d-inline">
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="text-end fw-bold">Tổng giá trị đơn hàng:</td>
+                            <td colspan="2" class="text-danger fw-bold">
+                                @Model.Sum(item => item.Price * item.Quantity).ToString("#,0") ₫
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
 
-            <div class="d-flex justify-content-center mb-4">
-                <div class="w-50">
-                    <label for="PaymentMethodSelect" class="form-label">Chọn phương thức thanh toán</label>
+            <!-- Thông tin giao hàng (2/5) -->
+            <div class="col-md-5">
+                <h3>Thông tin giao hàng</h3>
+                <div class="form-floating mb-3">
+                    <input type="text" name="CustomerName" id="CustomerName" class="form-control" placeholder="Họ và tên" required>
+                    <label for="CustomerName">Họ và tên</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" name="Address" id="Address" class="form-control" placeholder="Địa chỉ giao hàng" required>
+                    <label for="Address">Địa chỉ giao hàng</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" name="Phone" id="Phone" class="form-control" placeholder="Số điện thoại" required>
+                    <label for="Phone">Số điện thoại</label>
+                </div>
+                <div class="mb-3">
                     <select class="form-select" name="PaymentMethodSelect" id="PaymentMethodSelect" required onchange="updatePaymentMethod()">
-                        <option value="">Chọn phương thức thanh toán</option>
+                        <option value="">--Chọn phương thức thanh toán--</option>
                         <option value="Momo">Thanh toán qua Momo</option>
                         <option value="Vnpay">Thanh toán qua VnPay</option>
                         <option value="COD">Thanh toán COD</option>
                     </select>
                 </div>
+                
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <button type="submit" class="btn btn-dark w-25">Tiến hành thanh toán</button>
             </div>
         </div>
-
-        <button type="submit" class="btn btn-primary w-100">Tiến hành thanh toán</button>
     </div>
 </form>
 

@@ -79,14 +79,13 @@ public class AccountController : Controller
     [HttpPost]
     public async Task<IActionResult> Register(string username, string fullname, string password, string email)
     {
-        // Kiểm tra username và email đã tồn tại chưa, mã hóa mật khẩu, và lưu tài khoản
         var existingUser = await _context.Account
                                           .FirstOrDefaultAsync(u => u.Username == username);
 
         if (existingUser != null)
         {
             ModelState.AddModelError("Username", "Tên tài khoản đã tồn tại.");
-            return View(); // Trả lại View với thông báo lỗi
+            return View(); 
         }
 
         var existingEmail = await _context.Account
@@ -95,7 +94,7 @@ public class AccountController : Controller
         if (existingEmail != null)
         {
             ModelState.AddModelError("Email", "Email đã được đăng ký.");
-            return View(); // Trả lại View với thông báo lỗi
+            return View(); 
         }
 
         string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
@@ -108,7 +107,7 @@ public class AccountController : Controller
             Email = email,
             CreatedAt = DateTime.Now,
             Status = "Active",
-            Role = "User" // Mặc định là User
+            Role = "User" 
         };
 
         _context.Account.Add(newAccount);
@@ -126,15 +125,12 @@ public class AccountController : Controller
             return Json(new { success = false, message = "Email không tồn tại!" });
         }
 
-        // Tạo ResetPasswordToken
         user.ResetPasswordToken = Guid.NewGuid().ToString();
-        user.ResetTokenExpires = DateTime.Now.AddHours(1); // Token có hiệu lực trong 1 giờ
+        user.ResetTokenExpires = DateTime.Now.AddHours(1); 
         await _context.SaveChangesAsync();
 
-        // Gửi email đặt lại mật khẩu (giả sử URL: /Account/ResetPassword?token=...)
         string resetLink = Url.Action("ResetPassword", "Account", new { token = user.ResetPasswordToken }, Request.Scheme);
 
-        // Sử dụng dịch vụ gửi email (ví dụ: SMTP hoặc thư viện như SendGrid)
         await _emailService.SendEmailAsync(user.Email, "Đặt lại mật khẩu", $"Click vào link để đặt lại mật khẩu: {resetLink}");
 
         return Json(new { success = true, message = "Hãy kiểm tra email của bạn để đặt lại mật khẩu." });
@@ -146,7 +142,7 @@ public class AccountController : Controller
 
         if (user == null)
         {
-            return View("Error"); // Hiển thị trang lỗi nếu token không hợp lệ
+            return View("Error"); 
         }
 
         return View(new ResetPasswordViewModel { Token = token });
@@ -164,7 +160,7 @@ public class AccountController : Controller
             if (user != null)
             {
                 user.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
-                user.ResetPasswordToken = null; // Xóa token sau khi đã đặt lại mật khẩu
+                user.ResetPasswordToken = null; 
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction("Login", "Account");
@@ -182,7 +178,7 @@ public class AccountController : Controller
 
     public IActionResult Logout()
     {
-        HttpContext.Session.Clear(); // Xóa toàn bộ dữ liệu Session
+        HttpContext.Session.Clear(); 
         return RedirectToAction("Login", "Account");
     }
 }

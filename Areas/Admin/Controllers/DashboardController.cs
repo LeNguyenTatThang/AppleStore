@@ -73,11 +73,23 @@ namespace AppleStore.Areas.Admin.Controllers
 
         public IActionResult Category()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             return View();
         }
 
         public IActionResult Account()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             return View();
         }
 

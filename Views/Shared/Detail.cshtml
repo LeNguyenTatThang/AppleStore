@@ -11,26 +11,41 @@
 
         <!-- Cột hiển thị thông tin sản phẩm (col-6) -->
         <div class="col-md-6">
-            <p><strong>Price:</strong> @Model.Price.ToString("#,0")</p>
-            <p><strong>Information:</strong> @Model.Information</p>
+            <p><strong>Giá:</strong> @Model.Price.ToString("#,0") VNĐ</p>
+            <p><strong>Thông tin sản phẩm:</strong> @Model.Information</p>
             <div class="d-flex justify-content-between">
                 <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@Model.Id" asp-route-productName="@Model.Name" asp-route-price="@Model.Price" asp-route-ImageUrl="@Model.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
                 
             </div>
-            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Back to Products</a>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Vế trang chủ</a>
         </div>
     </div>
 
     <!-- Cột chi tiết hoặc hướng dẫn sử dụng (col-12) -->
     <div class="row mt-5">
         <div class="col-12">
-            <h5>Product Details</h5>
-            <p>Here you can add detailed information or user guide for the product.</p>
-            <ul>
-                <li>Feature 1: Detailed explanation</li>
-                <li>Feature 2: Detailed explanation</li>
-                <li>Feature 3: Detailed explanation</li>
-            </ul>
+            <h5>Công nghệ mới của Apple</h5>
+            <div class="container">
+                <img src="../../images/info1.jpg" alt="Los Angeles"  style="width:100%">
+            </div>
+            <div class="container">
+                <img src="../../images/info2.jpg" alt="Los Angeles" style="width:100%">
+            </div>
+            <div class="container">
+                <img src="../../images/info3.jpg" alt="Los Angeles" style="width:100%">
+            </div>
+            <div class="container">
+                <img src="../../images/info4.jpg" alt="Los Angeles" style="width:100%">
+            </div>
+            <div class="container">
+                <img src="../../images/info5.jpg" alt="Los Angeles" style="width:100%">
+            </div>
+            <div class="container">
+                <img src="../../images/info6.jpg" alt="Los Angeles" style="width:100%">
+            </div>
+            <div class="container pb-4">
+                <img src="../../images/info7.jpg" alt="Los Angeles" style="width:100%">
+            </div>
         </div>
     </div>
 </div>

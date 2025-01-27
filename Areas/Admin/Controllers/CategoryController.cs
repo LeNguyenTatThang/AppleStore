@@ -22,7 +22,6 @@ namespace AppleStore.Areas.Admin.Controllers
         public IActionResult Index()
         {
             var role = HttpContext.Session.GetString("UserRole");
-            Console.WriteLine(role);
 
             if (role == "Admin")
             {
@@ -43,7 +42,13 @@ namespace AppleStore.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
         {
-            
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             _context.Add(category);
             await _context.SaveChangesAsync();
             if(category.Name == null)
@@ -58,6 +63,12 @@ namespace AppleStore.Areas.Admin.Controllers
         // Sửa thể loại
         public async Task<IActionResult> Edit(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var category = await _context.Category.FindAsync(id);
             if (category == null)
             {
@@ -70,6 +81,12 @@ namespace AppleStore.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(int id, Category category)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             if (id != category.Id)
             {
                 return NotFound();
@@ -103,6 +120,12 @@ namespace AppleStore.Areas.Admin.Controllers
         // Xóa thể loại
         public async Task<IActionResult> Delete(int id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var category = await _context.Category.FindAsync(id);
             if (category == null)
             {

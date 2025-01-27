@@ -12,12 +12,12 @@
 }
 
 <table class="container-fluid table table-bordered table-striped table-responsive">
-    <thead>
+    <thead class="table-dark">
         <tr>
             <th style="width: 5%;">ID</th>
             <th style="width: 15%;">Mã đơn hàng</th>
             <th style="width: 15%;">Tên khách hàng</th>
-            <th style="width: 10%;">Thanh toán</th>
+            <th style="width: 8%;">Thanh toán</th>
             <th style="width: 15%;">Ngày đặt hàng</th>
             <th style="width: 10%;">Tổng tiền</th>
             <th style="width: 10%;">Trạng thái thanh toán</th>
@@ -34,7 +34,7 @@
                 <td>@order.CustomerName</td>
                 <td>@order.PaymentMethod</td>
                 <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
-                <td>@string.Format("{0:C}", order.TotalAmount)</td>
+                <td>@order.TotalAmount.ToString("#,0") VNĐ</td>
                 <td>
                     @if (order.PaymentStatus == "Success")
                     {
@@ -50,20 +50,20 @@
                     <div class="d-flex align-items-center gap-2">
                     <a class="btn btn-primary btn-sm" href="@Url.Action("Detail", "Order", new { OrderId = order.OrderId })">Xem</a>
                         <!-- Form cập nhật trạng thái -->
-                        <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center gap-2">
-                        <input type="hidden" name="id" value="@order.Id" />
+                        <form asp-action="UpdateStatus" asp-controller="Order" asp-area="Admin" method="post" class="d-flex align-items-center gap-2">
+                            <input type="hidden" name="id" value="@order.Id" />
                             <!-- Dropdown trạng thái -->
-                            <select name="status" class="form-select form-select-sm" style="width: auto;">
-                            <option value="Processing" selected="@(order.OrderStatus == "Processing")">Đang xử lý</option>
-                            <option value="Completed" selected="@(order.OrderStatus == "Completed")">Hoàn thành</option>
-                            <option value="Cancelled" selected="@(order.OrderStatus == "Cancelled")">Hủy</option>
-
-                        </select>
+                             <select name="status" class="form-select form-select-sm" style="width: auto;">
+                                        <option value="Đang xử lý" selected="@(order.OrderStatus == "Đang xử lý")">Đang xử lý</option>
+                                        <option value="Hoàn thành" selected="@(order.OrderStatus == "Hoàn thành")">Hoàn thành</option>
+                                        <option value="Hủy" selected="@(order.OrderStatus == "Hủy")">Hủy</option>
+                                </select>
                             <!-- Nút cập nhật -->
                             <button type="submit" class="btn btn-warning btn-sm">
                                 Cập nhật
                             </button>
-                    </form>
+                        </form>
+
                     </div>
                 </td>
             </tr>

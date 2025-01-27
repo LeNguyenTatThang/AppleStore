@@ -10,8 +10,17 @@
     <p><strong>Địa chỉ giao hàng:</strong> @Model.Address</p>
     <p><strong>Số điện thoại:</strong> @Model.Phone</p>
     <p><strong>Phương thức thanh toán:</strong> @Model.PaymentMethod</p>
-    <p><strong>Trạng thái thanh toán:</strong> @Model.PaymentStatus</p>
-    <p><strong>Tổng tiền:</strong> @Model.TotalAmount.ToString("C")</p>
+    <p>
+        <strong>Trạng thái thanh toán:</strong>   @if (Model.PaymentStatus == "Success")
+        {
+            <span class="badge bg-success">Thành công</span>
+        }
+        else
+        {
+            <span class="badge bg-danger">Thất bại</span>
+        }
+    </p>
+    <p><strong>Tổng tiền:</strong> @Model.TotalAmount.ToString("#,0") VNĐ</p>
     <p><strong>Ngày đặt hàng:</strong> @Model.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</p>
 
     <h4>Danh sách sản phẩm</h4>
@@ -34,8 +43,8 @@
                         <td>@item.ProductId</td>
                         <td>@item.ProductName</td>
                         <td>@item.Quantity</td>
-                        <td>@item.Price.ToString("C")</td>
-                        <td>@item.Total.ToString("C")</td>
+                        <td>@item.Price.ToString("C") VNĐ</td>
+                        <td>@item.Total.ToString("C") VNĐ</td>
                     </tr>
                 }
             </tbody>

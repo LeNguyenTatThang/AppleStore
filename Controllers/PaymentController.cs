@@ -20,11 +20,8 @@ namespace AppleStore.Controllers
             _vnPayService = vnPayService;
             _dbContext = dbContext;
         }
-
-        // Thêm từ khóa async để hỗ trợ các thao tác bất đồng bộ
         public async Task<IActionResult> Checkout(OrderInfo model, PaymentInformationModel model1, string customerName, string address, string phone, decimal Amount, string paymentMethod)
         {
-            // Lấy giá trị paymentMethod từ form (được gửi khi submit form)
             if (string.IsNullOrEmpty(paymentMethod))
             {
                 TempData["Error"] = "Vui lòng chọn phương thức thanh toán.";
@@ -34,7 +31,6 @@ namespace AppleStore.Controllers
             HttpContext.Session.SetString("Address", address);
             HttpContext.Session.SetString("Phone", phone);
             HttpContext.Session.SetDecimal("TotalAmount", Amount);
-            // Sử dụng switch-case để xử lý các phương thức thanh toán
             switch (paymentMethod)
             {
                 case "Momo":
@@ -65,7 +61,6 @@ namespace AppleStore.Controllers
                     return RedirectToAction("PaymentSuccess", new { orderId = order.Id });
 
                 default:
-                    // Nếu không phải là phương thức thanh toán hợp lệ, chuyển hướng về giỏ hàng
                     TempData["Error"] = "Phương thức thanh toán không hợp lệ.";
                     return RedirectToAction("Index", "Cart");
             }
@@ -79,7 +74,6 @@ namespace AppleStore.Controllers
             HttpContext.Session.SetString("Phone", phone);
             HttpContext.Session.SetDecimal("TotalAmount", totalAmount);
 
-            // Gọi dịch vụ để tạo payment qua Momo
             var response = await _momoService.CreatePaymentAsync(model);
 
             TempData["PaymentSuccess"] = "Thanh toán qua Momo thành công!";
@@ -94,7 +88,6 @@ namespace AppleStore.Controllers
             HttpContext.Session.SetString("Phone", phone);
             HttpContext.Session.SetDecimal("TotalAmount", totalAmount);
 
-            // Tạo URL thanh toán VnPay
             var url = _vnPayService.CreatePaymentUrl(model, HttpContext);
             TempData["PaymentSuccess"] = "Thanh toán qua VnPay thành công!";
             return Redirect(url);
