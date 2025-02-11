@@ -61,6 +61,22 @@ namespace AppleStore.Areas.Admin.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Edit(int id)
+        {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            var account = await _context.Account.FindAsync(id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            return View(account);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(string username, string fullname, string password, string email)
         {
@@ -107,6 +123,77 @@ namespace AppleStore.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index", "Account");
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, Account account)
+        {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            if (id != account.AccountId)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                var existingAccount = await _context.Account.FindAsync(id);
+                if (existingAccount == null)
+                {
+                    return NotFound();
+                }
+
+                existingAccount.Username = account.Username;
+                existingAccount.Email = account.Email;
+                existingAccount.FullName = account.FullName;
+                existingAccount.PhoneNumber = account.PhoneNumber;
+                existingAccount.Status = account.Status;
+                existingAccount.UpdatedAt = DateTime.Now;
+
+                if (!string.IsNullOrEmpty(account.Password))
+                {
+                    existingAccount.Password = BCrypt.Net.BCrypt.HashPassword(account.Password);
+                }
+
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Account.Any(e => e.AccountId == account.AccountId))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            TempData["success"] = "Cập nhật tài khoản thành công";
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            var account = await _context.Account.FindAsync(id);
+            if (account == null)
+            {
+                return NotFound();
+            }
+            
+            _context.Account.Remove(account);
+            await _context.SaveChangesAsync();
+
+            TempData["success"] = "Xóa tài khoản thành công.";
+            return RedirectToAction(nameof(Index));
         }
     }
 }
