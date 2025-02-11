@@ -52,12 +52,24 @@ namespace AppleStore.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Create(string username, string fullname, string password, string email)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
             var existingUser = await _context.Account
                                               .FirstOrDefaultAsync(u => u.Username == username);
 
