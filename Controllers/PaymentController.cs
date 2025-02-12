@@ -5,6 +5,9 @@ using AppleStore.Services.Momo;
 using AppleStore.Models;
 using AppleStore.Data;
 using AppleStore.Extensions;
+using Azure;
+using System.Net;
+using System.Numerics;
 
 namespace AppleStore.Controllers
 {
@@ -44,12 +47,13 @@ namespace AppleStore.Controllers
                 case "COD":
                     var order = new Order
                     {
+                        OrderId = DateTime.Now.ToString("yyyyMMddHHmmss"),
                         CustomerName = customerName,
                         Address = address,
                         Phone = phone,
                         TotalAmount = Amount,
                         PaymentMethod = "COD",
-                        PaymentStatus = "Pending",
+                        PaymentStatus = "Success",
                         OrderStatus = "Processing",
                         OrderDate = DateTime.Now
                     };
@@ -57,8 +61,33 @@ namespace AppleStore.Controllers
                     _dbContext.Orders.Add(order);
                     await _dbContext.SaveChangesAsync();
 
-                    TempData["PaymentSuccess"] = "Thanh toán COD thành công!";
-                    return RedirectToAction("PaymentSuccess", new { orderId = order.Id });
+                    var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
+
+
+                    if (cart == null || !cart.Any())
+                    {
+                        throw new ArgumentException("Cart không hợp lệ!");
+                    }
+
+                    var orderDetails = cart.Select(item => new OrderDetail
+                    {
+                        OrderId = order.OrderId,
+                        ProductId = item.ProductId,
+                        ProductName = item.ProductName,
+                        Quantity = item.Quantity,
+                        Price = item.Price,
+                        Total = item.Quantity * item.Price
+                    }).ToList();
+
+
+                    _dbContext.OrderDetails.AddRange(orderDetails);
+                    _dbContext.SaveChanges();
+
+                    HttpContext.Session.Remove("cart");
+
+                    ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
+                    TempData["PaymentSuccess"] = "Thanh toán thành công!";
+                    return RedirectToAction("Index", "Home");
 
                 default:
                     TempData["Error"] = "Phương thức thanh toán không hợp lệ.";
@@ -93,25 +122,5 @@ namespace AppleStore.Controllers
             return Redirect(url);
         }
 
-        public IActionResult PaymentCOD(string customerName, string address, string phone, decimal totalAmount)
-        {
-            var order = new Order
-            {
-                CustomerName = customerName,
-                Address = address,
-                Phone = phone,
-                TotalAmount = totalAmount,
-                PaymentMethod = "COD",
-                PaymentStatus = "Pending",
-                OrderStatus = "Processing",
-                OrderDate = DateTime.Now
-            };
-
-            _dbContext.Orders.Add(order);
-            _dbContext.SaveChanges();
-
-            TempData["PaymentSuccess"] = "Thanh toán COD thành công!";
-            return RedirectToAction("PaymentSuccess", new { orderId = order.Id });
-        }
     }
 }

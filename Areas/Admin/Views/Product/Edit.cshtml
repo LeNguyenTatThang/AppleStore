@@ -22,8 +22,18 @@
         </div>
 
         <div class="mb-3">
-            <label for="Information" class="form-label">Thông tin</label>
-            <textarea class="form-control" asp-for="Information" id="Information" rows="4" oninput="checkChanges()"></textarea>
+            @* <label for="Information" class="form-label">Thông tin</label>
+            <textarea class="form-control" asp-for="Information" id="Information" rows="4" oninput="checkChanges()"></textarea> *@
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title mb-0">Thông tin</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="snow-editor" style="height: 300px;">@Html.Raw(@Model.Information) </div>
+                        <input class="form-control" type="hidden" asp-for="Information" id="content" value="" />
+                    </div>
+                </div>
         </div>
 
         <div class="mb-3">
@@ -43,7 +53,7 @@
         </div>
 
         <div class="form-group">
-            <button class="btn btn-primary" id="submitBtn" >Chỉnh sửa</button>
+                <button class="btn btn-primary" id="submitBtn" onclick="customEventEditor()">Chỉnh sửa</button>
         </div>
     </div>
 </form>

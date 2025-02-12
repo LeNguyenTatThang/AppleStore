@@ -13,6 +13,7 @@ wwwroot\css\custom.min.css
 wwwroot\css\custom.min.css.map
 wwwroot\css\custom-rtl.min.css
 wwwroot\css\custom-rtl.min.css.map
+wwwroot\css\customscreen.css
 wwwroot\css\icons.css
 wwwroot\css\icons.min.css
 wwwroot\css\icons.min.css.map
@@ -1053,6 +1054,8 @@ wwwroot\images\users\user-dummy-img.jpg
 wwwroot\images\verification-img.png
 wwwroot\images\widget-img.png
 wwwroot\js\app.js
+wwwroot\js\customstart.js
+wwwroot\js\jquery-3.6.3.min.js
 wwwroot\js\layout.js
 wwwroot\js\pages\animation-aos.init.js
 wwwroot\js\pages\apexcharts-area.init.js

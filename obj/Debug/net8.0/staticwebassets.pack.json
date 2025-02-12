@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\custom.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\css\\customscreen.css",
+      "PackagePath": "staticwebassets\\css\\customscreen.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\css\\icons.css",
       "PackagePath": "staticwebassets\\css\\icons.css"
     },
@@ -4223,6 +4227,14 @@
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\js\\customstart.js",
+      "PackagePath": "staticwebassets\\js\\customstart.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\js\\jquery-3.6.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.3.min.js"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\js\\layout.js",

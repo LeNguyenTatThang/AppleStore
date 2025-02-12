@@ -7,7 +7,7 @@
         <input type="hidden" name="AccountId" value="@Model.AccountId" />
 
         <div class="form-floating mb-3">
-            <input type="text" class="form-control" name="Username" value="@Model.Username" placeholder="Tên tài khoản" required>
+            <input type="text" class="form-control" name="Username" value="@Model.Username" placeholder="Tên tài khoản" disabled>
             <label for="Username">Tên tài khoản</label>
         </div>
 
@@ -40,8 +40,13 @@
             <label for="Status">Trạng thái</label>
         </div>
 
-        <div class="form-floating mb-3">
-            <input type="password" class="form-control" name="Password" value="@Model.Password" placeholder="Mật khẩu mới">
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" value="" id="changePassword" onclick="checkFormPassword()" />
+            <label class="form-check-label" for="form1Example3"> Đổi mật khẩu</label>
+        </div>
+
+        <div class="form-floating mb-3 form-password hidden">
+            <input type="password" class="form-control" name="Password" placeholder="Mật khẩu mới">
             <label for="Password">Mật khẩu mới</label>
         </div>
 
@@ -51,6 +56,6 @@
     </form>
 
     <div class="mt-3">
-        <a href="Admin/Account/Index" class="btn btn-secondary">Quay lại danh sách</a>
+        <a href="/Admin/Account/Index" class="btn btn-secondary">Quay lại danh sách</a>
     </div>
 </div>

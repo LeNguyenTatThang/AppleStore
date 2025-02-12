@@ -4,15 +4,16 @@
     <h1 class="text-center mb-4">@Model.Name</h1>
 
     <div class="row">
-        <!-- Cột hiển thị ảnh sản phẩm (col-6) -->
         <div class="col-md-6">
             <img src="../../images/@Model.Img" class="img-fluid" alt="@Model.Name" style="height: 500px; object-fit: cover;">
         </div>
 
-        <!-- Cột hiển thị thông tin sản phẩm (col-6) -->
         <div class="col-md-6">
             <p><strong>Giá:</strong> @Model.Price.ToString("#,0") VNĐ</p>
-            <p><strong>Thông tin sản phẩm:</strong> @Model.Information</p>
+            <p>
+                @Html.Raw(@Model.Information)
+            <p>
+
             <div class="d-flex justify-content-between">
                 <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@Model.Id" asp-route-productName="@Model.Name" asp-route-price="@Model.Price" asp-route-ImageUrl="@Model.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
                 
@@ -21,7 +22,6 @@
         </div>
     </div>
 
-    <!-- Cột chi tiết hoặc hướng dẫn sử dụng (col-12) -->
     <div class="row mt-5">
         <div class="col-12">
             <h5>Công nghệ mới của Apple</h5>

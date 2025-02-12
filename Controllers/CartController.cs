@@ -149,8 +149,7 @@ namespace AppleStore.Controllers
             _dbContext.OrderDetails.AddRange(orderDetails);
             _dbContext.SaveChanges();
 
-            cart.Clear();
-            HttpContext.Session.SetObjectAsJson("Cart", cart);
+            HttpContext.Session.Remove("cart");
 
             return orderDetails;
         }
