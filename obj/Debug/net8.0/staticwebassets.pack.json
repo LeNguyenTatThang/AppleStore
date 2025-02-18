@@ -589,6 +589,10 @@
       "PackagePath": "staticwebassets\\images\\brands\\slack.png"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\c7b6edda-e9d3-4e73-a4af-ffed3a38a34a_1.png",
+      "PackagePath": "staticwebassets\\images\\c7b6edda-e9d3-4e73-a4af-ffed3a38a34a_1.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png",
       "PackagePath": "staticwebassets\\images\\cdb5dfe6-7541-4e1f-83f6-b29c6c15de7b_0030238_apple-watch-ultra-2-gps-cellular-49mm-ocean-2024_240.png"
     },

@@ -81,5 +81,23 @@ namespace AppleStore.Areas.Admin.Controllers
             TempData["Message"] = "Trạng thái đơn hàng đã được cập nhật.";
             return RedirectToAction("Index");
         }
+
+        [HttpPost("Admin/Order/Delete")]
+        public IActionResult Delete(int id)
+        {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (role != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            var order = _dbContext.Orders.Find(id);
+            
+            _dbContext.Orders.Remove(order);
+            _dbContext.SaveChanges();
+
+            TempData["Message"] = "Đã xóa đơn hàng.";
+            return RedirectToAction("Index");
+        }
     }
 }
