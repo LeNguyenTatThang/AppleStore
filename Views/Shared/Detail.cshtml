@@ -1,7 +1,9 @@
 ﻿@model AppleStore.Models.Product
-
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+}
 <div class="container">
-    <h1 class="text-center mb-4">@Model.Name</h1>
+    
 
     <div class="row">
         <div class="col-md-6">
@@ -9,17 +11,41 @@
         </div>
 
         <div class="col-md-6">
-            <p><strong>Giá:</strong> @Model.Price.ToString("#,0") VNĐ</p>
+            <h1 class="text-center my-4">@Model.Name</h1>
+            <p class="my-2"><strong>Giá:</strong> @Model.Price.ToString("#,0") VNĐ</p>
+
+            <p class="my-2"><strong>Số lượng:</strong> @Model.Amount</p>
+			@if(@Model.Amount == 0)
+			{
+                <p class="text-danger class=" my-2"">Hết hàng</p>
+                <a href="@Url.Action("Index", "Home")" class="btn btn-secondary px-4 py-2 fw-bold d-flex align-items-center gap-2">Vế trang chủ</a>
+			}
+			else
+			{
+                <p class="text-success class=" my-2"">Còn hàng</p>
+                <div class="d-flex justify-content-center gap-5 py-5 class=" my-2"">
+                    <a asp-controller="Cart"
+                       asp-action="AddToCart"
+                       asp-route-productId="@Model.Id"
+                       asp-route-productName="@Model.Name"
+                       asp-route-price="@Model.Price"
+                       asp-route-ImageUrl="@Model.Img"
+                       class="btn btn-primary px-4 py-2 fw-bold d-flex align-items-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Thêm vào giỏ hàng
+                    </a>
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary px-4 py-2 fw-bold d-flex align-items-center gap-2">Vế trang chủ</a>
+                </div>
+			}
+            
+            
+
+        </div>
+		<div class="container">
             <p>
                 @Html.Raw(@Model.Information)
             <p>
-
-            <div class="d-flex justify-content-between">
-                <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@Model.Id" asp-route-productName="@Model.Name" asp-route-price="@Model.Price" asp-route-ImageUrl="@Model.Img" class="btn btn-primary">Thêm vào giỏ hàng</a>
-                
-            </div>
-            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Vế trang chủ</a>
         </div>
+        
     </div>
 
     <div class="row mt-5">

@@ -30,6 +30,26 @@ namespace AppleStore.Controllers
                 TempData["Error"] = "Vui lòng chọn phương thức thanh toán.";
                 return RedirectToAction("Index", "Cart");
             }
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
+            if (cart == null || !cart.Any())
+            {
+                TempData["Error"] = "Giỏ hàng của bạn đang trống.";
+                return RedirectToAction("Index", "Cart");
+            }
+            // Lấy danh sách sản phẩm từ database
+            var productIds = cart.Select(c => c.ProductId).ToList();
+            var products = _dbContext.Product.Where(p => productIds.Contains(p.Id)).ToList();
+
+            // Kiểm tra số lượng sản phẩm
+            foreach (var cartItem in cart)
+            {
+                var product = products.FirstOrDefault(p => p.Id == cartItem.ProductId);
+                if (product != null && cartItem.Quantity > product.Amount)
+                {
+                    TempData["Error"] = $"Sản phẩm {product.Name} chỉ còn {product.Amount} sản phẩm trong kho.";
+                    return RedirectToAction("Index", "Cart");
+                }
+            }
             HttpContext.Session.SetString("CustomerName", customerName);
             HttpContext.Session.SetString("Address", address);
             HttpContext.Session.SetString("Phone", phone);
@@ -60,9 +80,6 @@ namespace AppleStore.Controllers
 
                     _dbContext.Orders.Add(order);
                     await _dbContext.SaveChangesAsync();
-
-                    var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("cart");
-
 
                     if (cart == null || !cart.Any())
                     {

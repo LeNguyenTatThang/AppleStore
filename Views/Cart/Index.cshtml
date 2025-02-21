@@ -1,5 +1,7 @@
 ﻿@model List<CartItem>
-
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
 <form method="post" asp-action="Checkout" asp-controller="Payment" class="min-vh-100">
     <input type="hidden" name="OrderType" value="other" />
     <input type="hidden" name="OrderDescription" value="Thanh toán sản phẩm của AppleStore" />
@@ -43,7 +45,9 @@
                                     <form asp-action="UpdateQuantity" method="post" class="d-inline">
                                         <input type="hidden" name="productId" value="@item.ProductId" />
                                         <button type="submit" class="btn btn-primary btn-sm" name="action" value="decrease">-</button>
-                                        <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control d-inline" style="width: 70px;" disabled />
+                                        <input type="number" name="quantity" value="@item.Quantity"
+                                               min="1"
+                                               class="form-control d-inline" style="width: 70px;" disabled />
                                         <button type="submit" class="btn btn-primary btn-sm" name="action" value="increase">+</button>
                                     </form>
                                 </td>

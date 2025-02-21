@@ -15,8 +15,9 @@
         <thead class="table-dark">
             <tr>
                 <th></th>
-                <th>Tên sản phẩm</th>
+                <th class="text-truncate">Tên sản phẩm</th>
                 <th>Giá</th>
+                <th>Số lượng</th>
                 <th>Danh mục</th>
                 <th>Hình ảnh</th>
                 <th>Hành động</th>
@@ -27,8 +28,13 @@
             {
                 <tr>
                     <td>@product.Id</td>
-                    <td>@product.Name</td>
+                    <td>
+                        <span title="@product.Name">
+                            @(product.Name.Length > 70 ? product.Name.Substring(0, 20) + "..." : product.Name)
+                        </span>
+                    </td>
                     <td>@product.Price.ToString("#,0") VNĐ</td>
+					<td>@product.Amount</td>
                     <td>@product.Category?.Name</td>
                     <td>
                         @if (!string.IsNullOrEmpty(product.Img))
@@ -49,3 +55,24 @@
         </tbody>
     </table>
 </div>
+<script>
+    window.onload = function() {
+        var successMessage = '@Html.Raw(TempData["success"])';
+        var errorMessage = '@Html.Raw(TempData["error"])';
+
+        var toastBody = document.getElementById('toast-body');
+        var toastElement = document.getElementById('liveToast');
+
+        if (successMessage.trim() !== '') {
+            toastBody.innerHTML = successMessage;
+            toastElement.classList.add('bg-success');
+            var toast = new bootstrap.Toast(toastElement);
+            toast.show();
+        } else if (errorMessage.trim() !== '') {
+            toastBody.innerHTML = errorMessage;
+            toastElement.classList.add('bg-danger');
+            var toast = new bootstrap.Toast(toastElement);
+            toast.show();
+        }
+    }
+</script>

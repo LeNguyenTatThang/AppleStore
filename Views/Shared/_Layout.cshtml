@@ -129,6 +129,21 @@
         
    </header>
         <main role="main" class="container">
+        <div class="toast-container position-fixed top-0 end-0 p-3">
+            <div id="liveToast" class="toast fade" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#007aff"></rect>
+                    </svg>
+                    <strong class="me-auto">Thông báo</strong>
+                    <small>Vừa xong</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div id="toast-body" class="toast-body">
+                    <!-- Thông báo sẽ hiển thị ở đây -->
+                </div>
+            </div>
+        </div>
             @RenderBody()
         </main>
 
@@ -213,6 +228,27 @@
 
             card.querySelector('.card-title').textContent = productName;
             card.querySelector('.card-text').textContent = productDescription;
+        }
+    </script>
+    <script>
+        window.onload = function() {
+            var successMessage = '@TempData["success"]';
+            var errorMessage = '@TempData["error"]';
+
+            var toastBody = document.getElementById('toast-body');
+            var toastElement = document.getElementById('liveToast');
+
+            if (successMessage) {
+                toastBody.innerHTML = successMessage;
+                toastElement.classList.add('bg-success'); // Thêm màu xanh cho thông báo thành công
+                var toast = new bootstrap.Toast(toastElement);
+                toast.show();
+            } else if (errorMessage) {
+                toastBody.innerHTML = errorMessage;
+                toastElement.classList.add('bg-danger'); // Thêm màu đỏ cho thông báo lỗi
+                var toast = new bootstrap.Toast(toastElement);
+                toast.show();
+            }
         }
     </script>
     @await RenderSectionAsync("Scripts", required: false)

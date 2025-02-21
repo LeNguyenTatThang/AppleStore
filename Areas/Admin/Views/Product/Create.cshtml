@@ -19,11 +19,17 @@
             </select>
         </div>
 
-
-        <div class="mb-3">
-            <label for="Price" class="form-label">Giá</label>
-            <input class="form-control" asp-for="Price" required />
+        <div class="col-12 d-flex gap-5">
+				<div class="col-6 mb-3">
+					<label for="Price" class="form-label">Giá</label>
+					<input class="form-control" asp-for="Price" required />
+				</div>
+                <div class="col-6 mb-3">
+                    <label for="Price" class="form-label">Số lượng</label>
+                    <input class="form-control" asp-for="Amount" required />
+                </div>
         </div>
+        
 
         <div class="mb-3">
             <label for="Image" class="form-label">Hình ảnh</label>

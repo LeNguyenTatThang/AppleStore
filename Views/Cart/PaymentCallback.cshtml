@@ -1,5 +1,7 @@
 ﻿@model AppleStore.Models.Momo.MomoExecuteResponseModel
-
+@{
+    ViewData["Title"] = "Thanh toán";
+}
 <div class="container mt-5">
     <h2 class="text-center @(Model.IsSuccess ? "text-success" : "text-danger")">
         @(Model.IsSuccess ? "Thanh toán thành công!" : "Thanh toán thất bại")

@@ -1,4 +1,7 @@
 ﻿@model Product
+@{
+    ViewData["Title"] = "Sửa sản phẩm";
+}
 <div class="container">
 <form method="post" enctype="multipart/form-data">
     <div class="container mt-4">
@@ -16,14 +19,18 @@
             </select>
         </div>
 
-        <div class="mb-3">
-            <label for="Price" class="form-label">Giá</label>
-            <input class="form-control" asp-for="Price" id="Price" oninput="checkChanges()" />
-        </div>
+				<div class="col-12 d-flex">
+					<div class="col-6 mb-3">
+						<label for="Amount" class="form-label">Số lượng</label>
+						<input class="form-control" asp-for="Amount" id="Amount" oninput="checkChanges()" />
+					</div>
+					<div class="col-6 mb-3">
+						<label for="Price" class="form-label">Giá</label>
+						<input class="form-control" asp-for="Price" id="Price" oninput="checkChanges()" />
+					</div>
+				</div>
 
         <div class="mb-3">
-            @* <label for="Information" class="form-label">Thông tin</label>
-            <textarea class="form-control" asp-for="Information" id="Information" rows="4" oninput="checkChanges()"></textarea> *@
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title mb-0">Thông tin</h4>
@@ -41,18 +48,16 @@
             <input class="form-control" type="file" name="Image" id="Image" onchange="checkChanges()" />
         </div>
 
-        <!-- Hiển thị ảnh hiện tại -->
         <div id="current-image">
             <img src="@Url.Content("~/images/" + Model.Img)" alt="Current Image" id="currentImage" width="200" />
         </div>
 
-        <!-- Preview ảnh mới -->
         <div id="preview-container" style="display:none;">
             <h5>Preview:</h5>
             <img id="image-preview" src="" alt="Image Preview" width="200" />
         </div>
 
-        <div class="form-group">
+            <div class="form-group" style="width: 100%; display: flex; justify-content: center;">
                 <button class="btn btn-primary" id="submitBtn" onclick="customEventEditor()">Chỉnh sửa</button>
         </div>
     </div>

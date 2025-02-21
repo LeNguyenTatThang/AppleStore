@@ -8,7 +8,8 @@
         public decimal Price { get; set; }
         public int Quantity { get; set; }
 
-        public decimal Total => Quantity * Price; // Tổng giá trị
+        public decimal Total => Quantity * Price;
+        public Product Product { get; set; }
     }
 
 }

@@ -24,6 +24,10 @@ namespace AppleStore.Models
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
+        [Display(Name = "Số lượng")]
+        [Range(0, int.MaxValue, ErrorMessage = "Số lượng không thể là số âm.")]
+        public int Amount { get; set; }
+
         [NotMapped]
         [Required(ErrorMessage = "Hình ảnh là bắt buộc.")]
         [Display(Name = "Hình ảnh")]

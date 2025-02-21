@@ -191,6 +191,18 @@ namespace AppleStore.Controllers
                 }
 
                 SaveOrderDetails(cart, checkOrder.OrderId);
+
+                foreach (var item in cart)
+                {
+                    var product = _dbContext.Product.FirstOrDefault(p => p.Id == item.ProductId);
+                    if (product != null && product.Amount >= item.Quantity)
+                    {
+                        product.Amount -= item.Quantity;
+                    }
+                }
+
+                _dbContext.SaveChanges();
+
                 ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
             }
             else
@@ -264,6 +276,18 @@ namespace AppleStore.Controllers
                 }
 
                 SaveOrderDetails(cart, checkOrder.OrderId);
+
+                foreach (var item in cart)
+                {
+                    var product = _dbContext.Product.FirstOrDefault(p => p.Id == item.ProductId);
+                    if (product != null && product.Amount >= item.Quantity)
+                    {
+                        product.Amount -= item.Quantity;
+                    }
+                }
+
+                _dbContext.SaveChanges();
+
                 ViewBag.Message = "Thanh toán thành công. Cảm ơn bạn đã mua hàng tại Apple Store.";
             }
             else

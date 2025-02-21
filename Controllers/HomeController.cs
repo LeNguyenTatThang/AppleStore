@@ -128,12 +128,12 @@ namespace AppleStore.Controllers
         {
             const int PageSize = 16;
             var totalProducts = _context.Product
-            .Where(p => p.CategoryId == 2 && (string.IsNullOrEmpty(keyword) || p.Name.Contains(keyword)))
+            .Where(p => p.CategoryId == 18 && (string.IsNullOrEmpty(keyword) || p.Name.Contains(keyword)))
             .Count();
 
             var totalPages = (int)Math.Ceiling((double)totalProducts / PageSize);
             var products = _context.Product
-            .Where(p => p.CategoryId == 2 && (string.IsNullOrEmpty(keyword) || p.Name.Contains(keyword)))
+            .Where(p => p.CategoryId == 18 && (string.IsNullOrEmpty(keyword) || p.Name.Contains(keyword)))
             .OrderBy(p => p.Id)
                 .Skip((page - 1) * PageSize)
                 .Take(PageSize)

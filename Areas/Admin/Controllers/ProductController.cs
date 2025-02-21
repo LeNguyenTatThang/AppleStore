@@ -79,7 +79,7 @@ namespace AppleStore.Areas.Admin.Controllers
 
                 product.Img = imageName;
             }
-            if (string.IsNullOrEmpty(product.Name) || string.IsNullOrEmpty(product.Information) || product.Price == 0 || product.CategoryId == 0 || product.Img == null || product.Image == null)
+            if (string.IsNullOrEmpty(product.Name) || string.IsNullOrEmpty(product.Information) || product.Price <= 0 || product.CategoryId <= 0 || product.Img == null || product.Image == null || product.Amount <= 0)
             {
                 TempData["error"] = "Vui lòng nhập đầy đủ thông tin";
                 return View(product);
@@ -149,13 +149,12 @@ namespace AppleStore.Areas.Admin.Controllers
                 existedProduct.Information = product.Information;
                 existedProduct.Price = product.Price;
                 existedProduct.CategoryId = product.CategoryId;
+                existedProduct.Amount = product.Amount;
                 _context.Update(existedProduct);
                 await _context.SaveChangesAsync();
 
                 TempData["success"] = "Cập nhật sản phẩm thành công";
                 return RedirectToAction("Index");
-            
-            
         }
 
         public async Task<IActionResult> Delete(int id)
@@ -174,6 +173,7 @@ namespace AppleStore.Areas.Admin.Controllers
 
             _context.Product.Remove(product);
             await _context.SaveChangesAsync();
+            TempData["success"] = "Xóa sản phẩm thành công";
             return RedirectToAction(nameof(Index));
         }
     }

@@ -121,7 +121,7 @@ namespace AppleStore.Areas.Admin.Controllers
 
             _context.Account.Add(newAccount);
             await _context.SaveChangesAsync();
-
+            TempData["success"] = "Tạo tài khoản thành công";
             return RedirectToAction("Index", "Account");
         }
         [HttpPost]

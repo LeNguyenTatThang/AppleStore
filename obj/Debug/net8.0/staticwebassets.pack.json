@@ -461,6 +461,10 @@
       "PackagePath": "staticwebassets\\images\\97e4f362-7a7d-48d1-8304-93b243966a77_0019776_green_550.jpeg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a36499eb-5fcc-4f3f-b102-7b2311c5a7a6__86f3288c-632d-4050-929c-6c0c88a63ce5.jpg",
+      "PackagePath": "staticwebassets\\images\\a36499eb-5fcc-4f3f-b102-7b2311c5a7a6__86f3288c-632d-4050-929c-6c0c88a63ce5.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp",
       "PackagePath": "staticwebassets\\images\\a3cc6c26-d486-465a-93c6-67c501530abe_0000809_imac-m1-2021-24-inch-8-core-gpu8gb512gb_240.webp"
     },
@@ -715,6 +719,10 @@
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\demos\\saas.png",
       "PackagePath": "staticwebassets\\images\\demos\\saas.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\df3b64ba-8558-4206-ac8d-9892c0caeef6_80132067_710066669520433_4255906698746658816_n.jpg",
+      "PackagePath": "staticwebassets\\images\\df3b64ba-8558-4206-ac8d-9892c0caeef6_80132067_710066669520433_4255906698746658816_n.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\AppleStore\\AppleStore\\wwwroot\\images\\e46710f4-5b1b-4bdc-8beb-3ea7147e1654_0030450_apple-watch-se-gps-2024-sport-band-size-sm_240.jpeg",

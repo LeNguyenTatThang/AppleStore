@@ -78,7 +78,7 @@ namespace AppleStore.Areas.Admin.Controllers
             order.OrderStatus = status;
             _dbContext.SaveChanges();
 
-            TempData["Message"] = "Trạng thái đơn hàng đã được cập nhật.";
+            TempData["success"] = "Trạng thái đơn hàng đã được cập nhật.";
             return RedirectToAction("Index");
         }
 
@@ -96,7 +96,7 @@ namespace AppleStore.Areas.Admin.Controllers
             _dbContext.Orders.Remove(order);
             _dbContext.SaveChanges();
 
-            TempData["Message"] = "Đã xóa đơn hàng.";
+            TempData["success"] = "Đã xóa đơn hàng.";
             return RedirectToAction("Index");
         }
     }
